@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/Montserrat-Regular.otf);
+}
+
+@font-face {
+  font-family: lato;
+  src: url(../fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: montserratBlack;
+  src: url(../fonts/Montserrat-Black.otf);
+}
+
+/* font family  */
+
+.montserrat {
+  font-family: montserrat;
+}
+
+.lato {
+  font-family: lato;
+}
+
+.montserratBlack {
+  font-family: montserratBlack;
+}
+
+/* header  */
+
+.hero_sec_bg {
+  background-image: url(../images/hero\ bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: rgb(1, 165, 254);
+  /* z-index: -1; */
+}
+.header{
+  background-color: rgba(11, 11, 11, 0.464);
+
+  /* position: fixed; */
+  /* top: 0; */
+  /* width: 100vw; */
+  /* z-index: 10; */
+}
+.navbar-toggler{
+  z-index: 12;
+}
+/* .header::before{
+    content: "";
+    background: url(../images/2.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  } */
+
+.top_header_let_spa {
+  letter-spacing: 1px;
+}
+
+.hero_content {
+  /* padding-top: calc(100% - 90%); */
+}
+
+.hero_spac {
+  letter-spacing: 11px;
+}
+
+/* first section  */
+.input-75 {
+  width: 75%;
+}
+
+.input-95 {
+  width: 95%;
+}
+
+@media (max-width: 768px) {
+  .input-75 {
+    width: 100%;
+  }
+
+  .input-95 {
+    width: 100%;
+  }
+}
+
+/* section two  */
+
+.sec_two {
+  background-image: url(../images/sec2_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* section five  */
+
+.sec_fivebg {
+  background-image: url(../images/city-png.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.centeR {
+  transform: translate(-20px, 0);
+  width: 112%;
+}
+
+/* section six  */
+
+.reabon_bg {
+  background-image: url(../images/blue-reabon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  clip-path: polygon(0% 0%, 91% 0%, 100% 50%, 90% 100%, 0% 100%) !important;
+}
+
+.reabon_bggrey_shade {
+  background-image: url(../images/reabon_grey.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  clip-path: polygon(0% 0%, 91% 0%, 100% 50%, 90% 100%, 0% 100%) !important;
+  transform: translate(-25px, 0px);
+  z-index: -1;
+}
+
+
+/* section seven  */
+
+.sec_sevenbg{
+  background-image: url(../images/mountain\ bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.rounded_top{
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+.rounded_all{
+  border-radius: 12px;
+}
+.middle_card{
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 52% 100%, 0 85%);
+  border: 1px solid red;
+  /* clip-path: polygon(90% 10%, 100% 50%, 90% 90%, 0% 90%, 10% 50%, 0% 10%); */
+  height: 745px;
+}
+
+/* section eight  */
+
+
+  .sec_eightbg{
+  background-image: url(../images/building\ bg\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  }
+
+/* section nine  */
+
+.sec_8_content{
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.224);
+  transform: translate(-134px , 0);
+}
+
+/* section ten  */
+
+.sec_ten{
+  background: url(../images/fixedbg.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 550px;
+}
+.owl-carousel .owl-item img {
+  width: 20px;
+}
+.star_img{
+  width: 20px;
+  height: 20px;
+  margin: 0 8px;
+}
+
+/* section eight carousel three  */
+
+.carousel_1 .owl-carousel {
+  width: 100%;
+  height: 580px;
+}
+.carousel_1 .slide {
+  width: 100%;
+  height: 580px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+.carousel_1 .slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 580px;
+}
+.carousel_1 .owl-dots {
+  position: absolute;
+  bottom: 4%;
+  width: 100%;
+  text-align: center;
+}
+
+/* section eleven  */
+
+.sec_eleven{
+  background-image: url(../images/curlybg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+.location_icon{
+  transform: translateY(30px)
+}
+/* section twelve  */
+
+  .links_icon{
+    flex-wrap: wrap;
+  }
+
+@media (max-width: 1024px) {
+  .reabon_bggrey_shade {
+    transform: translate(0px, 0px) !important;
+  }
+  .reabons_border {
+    border: none !important;
+  }
+  .sec_8_content{
+    transform: translate(0 , 0);
+  }
+  .middle_card {
+    height: 645px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .reabon_bggrey_shade{
+    transform: translate(0,0);
+  }
+}
+
+@media (max-width: 425px) {
+  .reabon_bg {
+    clip-path: polygon(0% 0%, 94% 0%, 100% 50%, 90% 100%, 0% 100%) !important;
+  }
+  .reabon_bggrey_shade{
+  clip-path: polygon(0% 0%, 94% 0%, 100% 50%, 90% 100%, 0% 100%) !important;
+  }
+  .hero_content {
+    /* padding-top: calc(100% - 72%); */
+  }
+  
+}
+
+
+/* Animations */
+[data-aos="custom-animation1"]{
+  /* background-color: rgba(11, 11, 11, 0.464); */
+  /* z-index: 15; */
+}
+[data-aos=""].aos-animate {
+  background-color: rgb(34, 34, 34);
+}
+
+@keyframes slideEffect {
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+}
+
+/* Animations Apply  */
+
+.sec_2_content{
+  /* animation: slideEffect 2s ease-in-out 1 forwards; */
+}

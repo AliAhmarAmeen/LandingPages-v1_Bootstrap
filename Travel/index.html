@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/datepicker.css">
+    <link rel="stylesheet" href="css/aos animation.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> css animations -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="">
+    <!-- offcanvas  -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavlinks"
+        aria-labelledby="offcanvasNavlinksLabel">
+        <div class="offcanvas-header bg-white text-black">
+            <h5 class="offcanvas-title lato fw-bold" id="offcanvasNavlinksLabel">Pages</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body bg-dark">
+            <nav class="navbar">
+                <div class="container-fluid justify-content-center">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <a class="nav-link montserrat fw-semibold fs-6 ms-4 text-uppercase" href="#">login</a>
+                        <a class="nav-link montserrat fw-semibold fs-6 ms-4 text-uppercase" href="#">signup</a>
+                        <a class="nav-link active border-2 border-bottom border-warning montserrat fw-semibold fs-6 mx-4 text-uppercase"
+                            aria-current="page" href="#">Home</a>
+                        <a class="nav-link montserrat fw-semibold fs-6 mx-4 text-uppercase" href="#">destination</a>
+                        <a class="nav-link montserrat fw-semibold fs-6 mx-4 text-uppercase" href="#">discount</a>
+                        <a class="nav-link montserrat fw-semibold fs-6 mx-4 text-uppercase" href="#">about</a>
+                        <a class="nav-link montserrat fw-semibold fs-6 mx-4 text-uppercase" href="#">Blog</a>
+                        <a class="nav-link montserrat fw-semibold fs-6 ms-4 text-uppercase" href="#">Contact</a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- offcanvas End -->
+
+    <div class="hero_sec_bg justify-content-center align-items-center">
+        <div class="header">
+            <div class="container">
+                <div class="row align-items-center py-1 py-md-3">
+                    <div class="col-md-7">
+                        <div class="row justify-content-cneter">
+                            <div class="col-12 col-md-5">
+                                <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+                                    <div class="d-inline-flex align-items-center">
+                                        <img src="images/phone-icon.png" class="img-fluid me-1" alt="" />
+                                        <span class="text-nowrap montserrat fs-6 text-white top_header_let_spa">+123
+                                            4567 8900</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-7">
+                                <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+                                    <div class="d-inline-flex align-items-center">
+                                        <img src="images/email-png.png" class="img-fluid me-2" alt="" />
+                                        <span class="text-nowrap montserrat fs-6 text-white top_header_let_spa">free
+                                            @freebies.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <div class="col d-none d-lg-block d-lg-flex justify-content-end">
+                                <div class="socialinks d-flex">
+                                    <a href="#">
+                                        <img src="Images/icons8-facebook-32.png" class="img-fluid" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="Images/icons8-twitter-circled-32.png" class="img-fluid mx-1" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="Images/icons8-pinterest-32.png" class="img-fluid mx-1" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="Images/icons8-instagram-32.png" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col d-none d-md-block">
+                                <div class="row justify-content-end">
+                                    <div class="col-6  d-flex justify-content-md-end">
+                                        <div class="d-inline-flex align-items-center">
+                                            <img src="images/man-icon.png" class="img-fluid pe-1 pe-sm-1" alt="" />
+                                            <span
+                                                class="text-nowrap montserrat fs-6 text-white top_header_let_spa">Login</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6  d-flex justify-content-md-end justify-content-lg-center">
+                                        <div class="d-inline-flex align-items-center">
+                                            <img src="images/" class="img-fluid pe-1 pe-sm-1" alt="" />
+                                            <span class="text-nowrap montserrat fs-6 text-white top_header_let_spa">Sign
+                                                Up</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="container">
+            <div class="container pb-2 pb-lg-0">
+                <nav class="navbar navbar-expand-lg" style="--bs-navbar-padding-y: 0;">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="images/logo-png.png" alt="" class="img-fluid"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavlinks" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon text-white"></span>
+                        </button>
+                        <div class="collapse navbar-collapse d-none d-lg-block justify-content-end"
+                            id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link active border-2 border-bottom border-warning montserrat fw-semibold fs-6 mx-2 mx-xl-4 text-uppercase"
+                                    aria-current="page" href="#">Home</a>
+                                <a class="nav-link montserrat fw-semibold fs-6 mx-2 mx-xl-4 text-uppercase"
+                                    href="#">destination</a>
+                                <a class="nav-link montserrat fw-semibold fs-6 mx-2 mx-xl-4 text-uppercase"
+                                    href="#">discount</a>
+                                <a class="nav-link montserrat fw-semibold fs-6 mx-2 mx-xl-4 text-uppercase"
+                                    href="#">about</a>
+                                <a class="nav-link montserrat fw-semibold fs-6 mx-2 mx-xl-4 text-uppercase"
+                                    href="#">Blog</a>
+                                <a class="nav-link montserrat fw-semibold fs-6 mx-2 ms-xl-4 text-uppercase"
+                                    href="#">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div id="color-change" class="d-flex justify-content-center align-items-center mt-5 pt-md-5">
+            <div class="text-center hero_content px-3">
+                <h1 class="montserratBlack fw-bold display-2 text-white">Start Your Greatest</h1>
+                <h3 class="montserratBlack fw-bold display-6 hero_spac text-uppercase text-white">adventure with us!
+                </h3>
+                <p class="lead roboto fw-bold text-white py-3 py-md-5">Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Repellendus dolorem saepe
+                    sequi<br>amet quia cum porro, maiores nihil molestias libero praesentium.</p>
+                <button class="btn btn-warning text-uppercase px-5 py-2 montserrat fw_bold fs-6">click here</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- section two  -->
+    <section class="sec_two">
+        <div class="container">
+            <h1 class="montserratBlack fw-bold fs-1 text-black text-uppercase text-center pt-5">find hotels</h1>
+        </div>
+        <div class="container py-5">
+            <div class="row row-cols-auto row-cols-lg-6 pb-5 justify-content-center gy-3">
+                <div class="col d-flex justify-content-center">
+                    <div class="inputs_">
+                        <h4 class="montserrat fs-5 fw_bold text-black mb-3">Where?</h4>
+                        <input
+                            class="form-control-2 me-2 rounded-1 ps-3 border border-light py-1 titillium fw-light fs-6 fw-bold"
+                            type="name" placeholder="Location" aria-label="name">
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center dates">
+                    <div class="inputs_">
+                        <h4 class="montserrat fs-5 fw_bold text-black mb-3">Check in</h4>
+                        <input id="user1" autocomplete="off"
+                            class="form-control-2 me-2 rounded-1 ps-3 border border-light py-1 titillium fw-light fs-6 fw-bold input-95"
+                            type="text" placeholder="DD-MM-YYYY" aria-label="datepicker">
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center dates">
+                    <div class="inputs_">
+                        <h4 class="montserrat fs-5 fw_bold text-black mb-3">Check out</h4>
+                        <input id="user2" autocomplete="off"
+                            class="form-control-2 me-2 rounded-1 ps-3 border border-light py-1 titillium fw-light fs-6 fw-bold input-95"
+                            type="text" placeholder="DD-MM-YYYY" aria-label="datepicker">
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <div class="inputs_">
+                        <h4 class="montserrat fs-5 fw_bold text-black mb-3">Adult</h4>
+                        <input
+                            class="form-control-2 me-2 rounded-1 ps-3 border border-light py-1 titillium fw-light fs-6 fw-bold input-75"
+                            type="number" placeholder="01" aria-label="name">
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <div class="inputs_">
+                        <h4 class="montserrat fs-5 fw_bold text-black mb-3">Child</h4>
+                        <input
+                            class="form-control-2 me-2 rounded-1 ps-3 border border-light py-1 titillium fw-light fs-6 fw-bold input-75"
+                            type="number" placeholder="00" aria-label="name">
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center align-self-end">
+                    <button
+                        class="btn btn-info text-uppercase px-5 px-lg-4 px-xl-5 montserrat fw_bold fs-6 text-nowrap">click
+                        here</button>
+
+                </div>
+            </div>
+    </section>
+
+    <!-- section three  -->
+
+    <section class="container-fluid">
+        <div class="row overflow-hidden">
+            <div class="col-12 col-xxl-6" style="--bs-gutter-x: 0;"><img src="images/train-png.png" alt=""
+                    class="img-fluid h-100 w-100"></div>
+            <div class="col-12 col-xxl-6 sec_2_content" data-aos="fade-right" data-aos-offset="10"
+                data-aos-duration="1200" data-aos-anchor-placement="top-bottom">
+                <div class="px-2 px-md-5 py-3">
+                    <h1 class="montserratBlack fw-semibold fs-1 text-black pt-5 text-capitalize lh-1">trusted since 2001
+                    </h1>
+                    <h1 class="montserrat fw-bold lh-1 fs-1 text-black text-capitalize" data-aos="fade-up"
+                        data-aos-offset="10" data-aos-duration="1200" data-aos-anchor-placement="top-bottom">we are
+                        exploore</h1>
+                    <p class="lead montserrat fw_bold py-3 text-justify" data-aos="fade-up" data-aos-offset="10"
+                        data-aos-duration="1200" data-aos-anchor-placement="top-bottom">Lorem ipsum dolor sit amet
+                        consectetur
+                        adipisicing elit. Magm ipsa, soluta labore expedita debitis iure explicabo unde! Odierhydt
+                        laborum magni, quaerat quo error hic, architecto distinctio itaques</p>
+                    <div class="row">
+                        <div class="col-2 col-md-1">
+                            <img src="images/check-32.png" alt=""
+                                class="figure-fluid d-flex justify-content-center align-items-center">
+                        </div>
+                        <div class="col-10 col-md-10">
+                            <p class="lead text-black montserrat fw-bold">Lorem ipsum dolor sit, amet consectetur
+                                adipisicing<br>Possimus
+                                dese omnis!</p>
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-2 col-md-1">
+                            <img src="images/check-32.png" alt=""
+                                class="figure-fluid d-flex justify-content-center align-items-center">
+                        </div>
+                        <div class="col-10 col-md-10">
+                            <p class="lead text-black montserrat fw-bold">Lorem ipsum dolor sit, amet consectetur
+                                adipisicing<br>Possimus
+                                dese omnis!</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2 col-md-1">
+                            <img src="images/check-32.png" alt=""
+                                class="figure-fluid d-flex justify-content-center align-items-center">
+                        </div>
+                        <div class="col-10 col-md-10">
+                            <p class="lead text-black montserrat fw-bold">Lorem ipsum dolor sit, amet consectetur
+                                adipisicing<br>Possimus
+                                dese omnis!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section four  -->
+    <section>
+        <div class="container">
+            <div class="sec_4_content py-5 text-center">
+                <h1 class="montserratBlack fw-semibold fs-1 text-black text-capitalize" data-aos="fade-up"
+                    data-aos-offset="10" data-aos-duration="1200" data-aos-anchor-placement="top-bottom">our best
+                    services</h1>
+                <h1 class="montserrat fw-bold fs-1 text-black text-capitalize" data-aos="fade-up" data-aos-offset="10"
+                    data-aos-duration="1200" data-aos-anchor-placement="top-bottom">we are travel agent</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row row-cols-auto row-cols-md-2 gy-5 justify-content-center align-items-center px-3 px-md-0">
+                <div class="col d-flex justify-content-md-center" data-aos="fade-up" data-aos-offset="10"
+                    data-aos-duration="1200" data-aos-anchor-placement="top-bottom">
+                    <div class="row">
+                        <div class="col-3 col-md-2">
+                            <img src="images/blue aeroplane.png" alt=""
+                                class="figure-fluid img-fluid d-flex justify-content-center align-items-center">
+                        </div>
+                        <div class="col-9 col-md-10">
+                            <h1 class="h4 text-uppercase text-black montserrat fw_bold text-capitalize fs-4">lorem ipsum
+                                dolor sit</h1>
+                            <p class="lead text-black montserrat fw_bold fs-6">Lorem ipsum dolor sit, amet
+                                consectetur<br>adipisicing elit. Possimus
+                                deserunt omnis!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-md-center" data-aos="fade-up" data-aos-offset="10"
+                    data-aos-duration="1200" data-aos-anchor-placement="top-bottom">
+                    <div class="row">
+                        <div class="col-3 col-md-2">
+                            <img src="images/blue aeroplane.png" alt=""
+                                class="figure-fluid img-fluid d-flex justify-content-center align-items-center">
+                        </div>
+                        <div class="col-9 col-md-10">
+                            <h1 class="h4 text-uppercase text-black montserrat fw_bold text-capitalize fs-4">lorem ipsum
+                                dolor sit</h1>
+                            <p class="lead text-black montserrat fw_bold fs-6">Lorem ipsum dolor sit, amet
+                                consectetur<br>adipisicing elit. Possimus
+                                deserunt omnis!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-md-center" data-aos="fade-up" data-aos-offset="10"
+                    data-aos-duration="1200" data-aos-anchor-placement="top-bottom">
+                    <div class="row">
+                        <div class="col-3 col-md-2">
+                            <img src="images/blue aeroplane.png" alt=""
+                                class="figure-fluid img-fluid d-flex justify-content-center align-items-center">
+                        </div>
+                        <div class="col-9 col-md-10">
+                            <h1 class="h4 text-uppercase text-black montserrat fw_bold text-capitalize fs-4">lorem ipsum
+                                dolor sit</h1>
+                            <p class="lead text-black montserrat fw_bold fs-6">Lorem ipsum dolor sit, amet
+                                consectetur<br>adipisicing elit. Possimus
+                                deserunt omnis!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-md-center" data-aos="fade-up" data-aos-offset="10"
+                    data-aos-duration="1200" data-aos-anchor-placement="top-bottom">
+                    <div class="row">
+                        <div class="col-3 col-md-2">
+                            <img src="images/blue aeroplane.png" alt=""
+                                class="figure-fluid img-fluid d-flex justify-content-center align-items-center">
+                        </div>
+                        <div class="col-9 col-md-10">
+                            <h1 class="h4 text-uppercase text-black montserrat fw_bold text-capitalize fs-4">lorem ipsum
+                                dolor sit</h1>
+                            <p class="lead text-black montserrat fw_bold fs-6">Lorem ipsum dolor sit, amet
+                                consectetur<br>adipisicing elit. Possimus
+                                deserunt omnis!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-md-center" data-aos="fade-up" data-aos-offset="10"
+                    data-aos-duration="1200" data-aos-anchor-placement="top-bottom">
+                    <div class="row">
+                        <div class="col-3 col-md-2">
+                            <img src="images/blue aeroplane.png" alt=""
+                                class="figure-fluid img-fluid d-flex justify-content-center align-items-center">
+                        </div>
+                        <div class="col-9 col-md-10">
+                            <h1 class="h4 text-uppercase text-black montserrat fw_bold text-capitalize fs-4">lorem ipsum
+                                dolor sit</h1>
+                            <p class="lead text-black montserrat fw_bold fs-6">Lorem ipsum dolor sit, amet
+                                consectetur<br>adipisicing elit. Possimus
+                                deserunt omnis!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-md-center" data-aos="fade-up" data-aos-offset="10"
+                    data-aos-duration="1200" data-aos-anchor-placement="top-bottom">
+                    <div class="row">
+                        <div class="col-3 col-md-2">
+                            <img src="images/blue aeroplane.png" alt=""
+                                class="figure-fluid img-fluid d-flex justify-content-center align-items-center">
+                        </div>
+                        <div class="col-9 col-md-10">
+                            <h1 class="h4 text-uppercase text-black montserrat fw_bold text-capitalize fs-4">lorem ipsum
+                                dolor sit</h1>
+                            <p class="lead text-black montserrat fw_bold fs-6">Lorem ipsum dolor sit, amet
+                                consectetur<br>adipisicing elit. Possimus
+                                deserunt omnis!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section five  -->
+
+    <section class="py-5 sec_fivebg my-5">
+        <div class="container pb-5">
+            <div class="sec_4_content py-5 text-center">
+                <h1 class="montserratBlack fw-semibold fs-1 text-black text-capitalize" data-aos="fade-up"
+                    data-aos-offset="10" data-aos-duration="1200" data-aos-anchor-placement="top-bottom">trusted since
+                    2001</h1>
+                <h1 class="montserrat fw-bold fs-1 text-black text-capitalize" data-aos="fade-up" data-aos-offset="10"
+                    data-aos-duration="1200" data-aos-anchor-placement="top-bottom">we are travel agent</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row row-cols-auto row-cols-md-3 justify-content-center gy-5 px-3 px-md-0 overflow-hidden">
+                <div class="col bg-white rounded-4 py-5 mb-5" style="margin-top: 0; width: 370px;" data-aos="fade-right"
+                    data-aos-offset="10" data-aos-duration="1000" data-aos-anchor-placement="top-center">
+                    <div class="head text-center">
+                        <img src="images/car.png" alt="" class="img-fluid">
+                        <h1 class="montserratBlack fw-semibold fs-3 text-black text-capitalize mt-4 mb-3 text-nowrap">
+                            low budget trip</h1>
+                    </div>
+                    <div class="centeR text-center bg-warning py-3">
+                        <h1 class="montserrat fw-bold fs-3 text-black text-capitalize" style="margin-bottom: 0;">
+                            $500</h1>
+                    </div>
+                    <div class="lists pt-5">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4 col-xl-4 d-flex justify-content-center justify-content-md-end"
+                                style="padding-right: 0;">
+                                <img src="images/check-32.png" alt="" class="figure-fluid">
+                            </div>
+                            <div class="col-8 col-xl-8">
+                                <p class="lead text-black montserrat fw-bold fs-6" style="margin-bottom: 0;">Lorem
+                                    ipsum dolor</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4 col-xl-4 d-flex justify-content-center justify-content-md-end"
+                                style="padding-right: 0;">
+                                <img src="images/check-32.png" alt="" class="figure-fluid">
+                            </div>
+                            <div class="col-8 col-xl-8">
+                                <p class="lead text-black montserrat fw-bold fs-6" style="margin-bottom: 0;">Lorem
+                                    ipsum dolor</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4 col-xl-4 d-flex justify-content-center justify-content-md-end"
+                                style="padding-right: 0;">
+                                <img src="images/check-32.png" alt="" class="figure-fluid">
+                            </div>
+                            <div class="col-8 col-xl-8">
+                                <p class="lead text-black montserrat fw-bold fs-6" style="margin-bottom: 0;">Lorem
+                                    ipsum dolor</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4 col-xl-4 d-flex justify-content-center justify-content-md-end"
+                                style="padding-right: 0;">
+                                <img src="images/check-32.png" alt="" class="figure-fluid">
+                            </div>
+                            <div class="col-8 col-xl-8">
+                                <p class="lead text-black montserrat fw-bold fs-6" style="margin-bottom: 0;">Lorem
+                                    ipsum dolor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col bg-white rounded-4 py-5 mb-5" style="margin-top: 0; width: 370px; margin: 0 50px;"
+                    data-aos="fade-up" data-aos-offset="10" data-aos-duration="1000"
+                    data-aos-anchor-placement="top-center">
+                    <div class="head text-center">
+                        <img src="images/car.png" alt="" class="img-fluid">
+                        <h1 class="montserratBlack fw-semibold fs-3 text-black text-capitalize mt-4 mb-3 text-nowrap">
+                            low budget trip</h1>
+                    </div>
+                    <div class="centeR text-center bg-warning py-3">
+                        <h1 class="montserrat fw-bold fs-3 text-black text-capitalize" style="margin-bottom: 0;">
+                            $500</h1>
+                    </div>
+                    <div class="lists pt-5">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4 col-xl-4 d-flex justify-content-center justify-content-md-end"
+                                style="padding-right: 0;">
+                                <img src="images/check-32.png" alt="" class="figure-fluid">
+                            </div>
+                            <div class="col-8 col-xl-8">
+                                <p class="lead text-black montserrat fw-bold fs-6" style="margin-bottom: 0;">Lorem
+                                    ipsum dolor</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4 col-xl-4 d-flex justify-content-center justify-content-md-end"
+                                style="padding-right: 0;">
+                                <img src="images/check-32.png" alt="" class="figure-fluid">
+                            </div>
+                            <div class="col-8 col-xl-8">
+                                <p class="lead text-black montserrat fw-bold fs-6" style="margin-bottom: 0;">Lorem
+                                    ipsum dolor</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4 col-xl-4 d-flex justify-content-center justify-content-md-end"
+                                style="padding-right: 0;">
+                                <img src="images/check-32.png" alt="" class="figure-fluid">
+                            </div>
+                            <div class="col-8 col-xl-8">
+                                <p class="lead text-black montserrat fw-bold fs-6" style="margin-bottom: 0;">Lorem
+                                    ipsum dolor</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4 col-xl-4 d-flex justify-content-center justify-content-md-end"
+                                style="padding-right: 0;">
+                                <img src="images/check-32.png" alt="" class="figure-fluid">
+                            </div>
+                            <div class="col-8 col-xl-8">
+                                <p class="lead text-black montserrat fw-bold fs-6" style="margin-bottom: 0;">Lorem
+                                    ipsum dolor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col bg-white rounded-4 py-5 mb-5" style="margin-top: 0; width: 370px;" data-aos="fade-left"
+                    data-aos-offset="10" data-aos-duration="1000" data-aos-anchor-placement="top-center">
+                    <div class="head text-center">
+                        <img src="images/car.png" alt="" class="img-fluid">
+                        <h1 class="montserratBlack fw-semibold fs-3 text-black text-capitalize mt-4 mb-3 text-nowrap">
+                            low budget trip</h1>
+                    </div>
+                    <div class="centeR text-center bg-warning py-3">
+                        <h1 class="montserrat fw-bold fs-3 text-black text-capitalize" style="margin-bottom: 0;">
+                            $500</h1>
+                    </div>
+                    <div class="lists pt-5">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4 col-xl-4 d-flex justify-content-center justify-content-md-end"
+                                style="padding-right: 0;">
+                                <img src="images/check-32.png" alt="" class="figure-fluid">
+                            </div>
+                            <div class="col-8 col-xl-8">
+                                <p class="lead text-black montserrat fw-bold fs-6" style="margin-bottom: 0;">Lorem
+                                    ipsum dolor</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4 col-xl-4 d-flex justify-content-center justify-content-md-end"
+                                style="padding-right: 0;">
+                                <img src="images/check-32.png" alt="" class="figure-fluid">
+                            </div>
+                            <div class="col-8 col-xl-8">
+                                <p class="lead text-black montserrat fw-bold fs-6" style="margin-bottom: 0;">Lorem
+                                    ipsum dolor</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4 col-xl-4 d-flex justify-content-center justify-content-md-end"
+                                style="padding-right: 0;">
+                                <img src="images/check-32.png" alt="" class="figure-fluid">
+                            </div>
+                            <div class="col-8 col-xl-8">
+                                <p class="lead text-black montserrat fw-bold fs-6" style="margin-bottom: 0;">Lorem
+                                    ipsum dolor</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4 col-xl-4 d-flex justify-content-center justify-content-md-end"
+                                style="padding-right: 0;">
+                                <img src="images/check-32.png" alt="" class="figure-fluid">
+                            </div>
+                            <div class="col-8 col-xl-8">
+                                <p class="lead text-black montserrat fw-bold fs-6" style="margin-bottom: 0;">Lorem
+                                    ipsum dolor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section six  -->
+
+    <section class="my-5">
+        <div class="container">
+            <div class="row overflow-hidden">
+                <div class="col-12 col-xl-4" data-aos="fade-right" data-aos-offset="10" data-aos-duration="700"
+                    data-aos-anchor-placement="top-bottom">
+                    <img src="images/man_with_ship.png" alt="" class="img-fluid w-100">
+                </div>
+                <div class="col-12 col-xl-8">
+                    <div class="sec_6_content px-2 px-md-5 py-3">
+                        <h1 class="montserratBlack fw-semibold fs-1 text-black pt-5 text-capitalize lh-1"
+                            data-aos="fade-up" data-aos-offset="10" data-aos-duration="1200"
+                            data-aos-anchor-placement="top-bottom">trusted since
+                            2001
+                        </h1>
+                        <h1 class="montserrat fw-bold lh-1 fs-1 text-black text-capitalize" data-aos="fade-up"
+                            data-aos-offset="10" data-aos-duration="1200" data-aos-anchor-placement="top-bottom">we are
+                            exploore</h1>
+                        <div class="reabons" data-aos="fade-up" data-aos-offset="10" data-aos-duration="1200"
+                            data-aos-anchor-placement="top-bottom">
+                            <div class="row border border-info gy-4 gy-xl-0 reabons_border mt-2">
+                                <div class="col-12 col-xl-4 reabon_bg py-2">
+                                    <div class="row my-3">
+                                        <div class="col-3 col-md-4 d-flex justify-content-end">
+                                            <img src="images/white-aerooplane.png" alt=""
+                                                class="figure-fluid d-flex justify-content-center align-items-center">
+                                        </div>
+                                        <div class="col-9 col-md-8">
+                                            <p class="lead text-white montserrat fw-bold" style="margin-bottom: 0;">
+                                                Flight</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-xl-4 reabon_bggrey_shade py-2">
+                                    <div class="row my-3">
+                                        <div class="col-3 col-md-4 d-flex justify-content-end">
+                                            <img src="images/white-aerooplane.png" alt=""
+                                                class="figure-fluid d-flex justify-content-center align-items-center">
+                                        </div>
+                                        <div class="col-9 col-md-8">
+                                            <p class="lead text-black montserrat fw-bold" style="margin-bottom: 0;">
+                                                Flight</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-xl-3 reabon_bg_white py-2">
+                                    <div class="row my-3">
+                                        <div class="col-3 col-md-4 d-flex justify-content-end">
+                                            <img src="images/home icon.png" alt=""
+                                                class="figure-fluid d-flex justify-content-center align-items-center">
+                                        </div>
+                                        <div class="col-9 col-md-8">
+                                            <p class="lead text-black montserrat fw-bold" style="margin-bottom: 0;">
+                                                Flight</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="lead montserrat fw_bold py-4 text-justify" data-aos="fade-up" data-aos-offset="10"
+                            data-aos-duration="1200" data-aos-anchor-placement="top-bottom">Lorem ipsum dolor sit amet
+                            consectetur
+                            adipisicing elit. Magm ipsa Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Magm ipsaLorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Magm ipsa, soluta labore expedita debitis iure explicabo unde! Odierhydt
+                            laborum magni, quaerat quo error hic, architecto distinctio itaques
+                        </p>
+                        <button class="btn btn-warning text-uppercase px-5 py-2 montserrat fw_bold fs-6"
+                            data-aos="fade-up" data-aos-offset="10" data-aos-duration="1200"
+                            data-aos-anchor-placement="top-bottom">click
+                            here</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section seven -->
+
+    <section class="py-5 sec_sevenbg">
+        <div class="container">
+            <div class="sec_4_content py-5 text-center">
+                <h1 class="montserratBlack fw-semibold fs-1 text-black text-capitalize" data-aos="fade-up"
+                    data-aos-offset="10" data-aos-duration="600" data-aos-anchor-placement="top-bottom">pack and go</h1>
+                <h1 class="montserrat fw-bold fs-1 text-black text-capitalize" data-aos="fade-up" data-aos-offset="10"
+                    data-aos-duration="1200" data-aos-anchor-placement="top-bottom">awesome tours</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div
+                class="row row-cols-auto px-4 px-md-0 row-cols-md-3 justify-content-center gy-5 gy-xl-0 overflow-hidden">
+                <div class="col" style="padding: 0 0;" data-aos="fade-up-right" data-aos-offset="10"
+                    data-aos-duration="1500" data-aos-delay="100" data-aos-anchor-placement="top-bottom">
+                    <div class="card border-0 rounded_all bg-white">
+                        <img src="images/rasod.png" alt="" class="img-fluid card-img-top rounded_top">
+                        <div class="card-body text-center">
+                            <h1 class="montserrat fw_bold fs-5 text-black text-capitalize">7 day + 6 nights</h1>
+                            <h1 class="montserratBlack fw-semibold fs-2 text-black text-capitalize py-2">new york +
+                                paris</h1>
+                            <p class="lead montserrat fw_bold text-justify">Lorem ipsum dolor sit amet consectetur
+                                adipisicinga
+                            </p>
+                            <h1 class="montserratBlack fw-semibold fs-2 text-black text-capitalize py-2">$600</h1>
+                            <button class="btn btn-warning text-uppercase px-4 py-2 montserrat fw_bold fs-6">book
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="padding: 0 0;" data-aos="fade-up" data-aos-offset="10" data-aos-duration="1500"
+                    data-aos-delay="100" data-aos-anchor-placement="top-bottom">
+                    <div class="card border-0 rounded_all bg-white middle_card">
+                        <img src="images/rasod.png" alt="" class="img-fluid card-img-top rounded_top">
+                        <div class="card-body text-center">
+                            <h1 class="montserrat fw_bold fs-5 text-black text-capitalize">7 day + 6 nights</h1>
+                            <h1 class="montserratBlack fw-semibold fs-2 text-black text-capitalize py-2">new york +
+                                paris</h1>
+                            <p class="lead montserrat fw_bold text-justify">Lorem ipsum dolor sit amet consectetur
+                                adipisicinga Lorem ipsum dolor sit Lorem ipsum dolo
+                            </p>
+                            <h1 class="montserratBlack fw-semibold fs-2 text-black text-capitalize py-2">$600</h1>
+                            <button class="btn btn-warning text-uppercase px-4 py-2 montserrat fw_bold fs-6">book
+                                now</button>
+                        </div>
+                        <!-- <div class="position-absolute">
+                            <img src="images/rounded plygon.png" alt="" class="img-fluid w-100">
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col" style="padding: 0 0;" data-aos="fade-up-left" data-aos-offset="10"
+                    data-aos-duration="1500" data-aos-delay="100" data-aos-anchor-placement="top-bottom">
+                    <div class="card border-0 rounded_all bg-white">
+                        <img src="images/raassod-ship.png" alt="" class="img-fluid card-img-top rounded_top">
+                        <div class="card-body text-center">
+                            <h1 class="montserrat fw_bold fs-5 text-black text-capitalize">7 day + 6 nights</h1>
+                            <h1 class="montserratBlack fw-semibold fs-2 text-black text-capitalize py-2">new york +
+                                paris</h1>
+                            <p class="lead montserrat fw_bold text-justify">Lorem ipsum dolor sit amet consectetur
+                                adipisicinga
+                            </p>
+                            <h1 class="montserratBlack fw-semibold fs-2 text-black text-capitalize py-2">$600</h1>
+                            <button class="btn btn-warning text-uppercase px-4 py-2 montserrat fw_bold fs-6">book
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section eight -->
+
+    <section class="py-5 sec_eightbg">
+        <div class="container">
+            <div class="sec_4_content py-5 text-center">
+                <h1 class="montserratBlack fw-semibold fs-1 text-black text-capitalize" data-aos="fade-up"
+                    data-aos-offset="10" data-aos-duration="700" data-aos-anchor-placement="top-bottom">pack and go</h1>
+                <h1 class="montserrat fw-bold fs-1 text-black text-capitalize" data-aos="fade-up" data-aos-offset="10"
+                    data-aos-duration="1500" data-aos-anchor-placement="top-bottom">awesome tours</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row row-cols-auto row-cols-md-3 justify-content-center gy-5 gy-xl-0 overflow-hidden">
+                <div class="col" style="width: 400px; padding: 0 20px;" data-aos="fade-right" data-aos-offset="10"
+                    data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+                    <div class="card border-0 rounded_all bg-white">
+                        <img src="images/rasod.png" alt="" class="img-fluid card-img-top rounded_top">
+                        <div class="card-body text-center position-relative">
+                            <h1 class="montserratBlack fw-semibold fs-3 text-black text-capitalize py-2 mt-4">Lorem
+                                ipsum dolor</h1>
+                            <p class="lead montserrat fw_bold text-justify mb-4">Lorem ipsum dolor sit amet consectetur
+                                adipisicinga Lorem ipsum dolor sit Lorem ipsume dolo sit Lorem ipsu
+                            </p>
+                            <button
+                                class="btn btn-warning text-uppercase px-4 py-2 montserrat fw_bold fs-6 position-absolute top-0 start-50 translate-middle text-nowrap">book
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="width: 400px; padding: 0 20px;" data-aos="fade-up" data-aos-offset="10"
+                    data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+                    <div class="card border-0 rounded_all bg-white">
+                        <img src="images/rasod.png" alt="" class="img-fluid card-img-top rounded_top">
+                        <div class="card-body text-center position-relative">
+                            <h1 class="montserratBlack fw-semibold fs-3 text-black text-capitalize py-2 mt-4">Lorem
+                                ipsum dolor</h1>
+                            <p class="lead montserrat fw_bold text-justify mb-4">Lorem ipsum dolor sit amet consectetur
+                                adipisicinga Lorem ipsum dolor sit Lorem ipsume dolo sit Lorem ipsu
+                            </p>
+                            <button
+                                class="btn btn-warning text-uppercase px-4 py-2 montserrat fw_bold fs-6 position-absolute top-0 start-50 translate-middle text-nowrap">book
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="width: 400px; padding: 0 20px;" data-aos="fade-left" data-aos-offset="10"
+                    data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+                    <div class="card border-0 rounded_all bg-white">
+                        <img src="images/rasod.png" alt="" class="img-fluid card-img-top rounded_top">
+                        <div class="card-body text-center position-relative">
+                            <h1 class="montserratBlack fw-semibold fs-3 text-black text-capitalize py-2 mt-4">Lorem
+                                ipsum dolor</h1>
+                            <p class="lead montserrat fw_bold text-justify mb-4">Lorem ipsum dolor sit amet consectetur
+                                adipisicinga Lorem ipsum dolor sit Lorem ipsume dolo sit Lorem ipsu
+                            </p>
+                            <button
+                                class="btn btn-warning text-uppercase px-4 py-2 montserrat fw_bold fs-6 position-absolute top-0 start-50 translate-middle text-nowrap">book
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section nine -->
+
+    <section class="my-5">
+        <div class="container position-relative">
+            <div class="row overflow-hidden">
+                <div class="col-12 col-xl-7">
+                    <img src="images/brush.png" alt="" class="img-fluid w-100">
+                </div>
+                <div class="col-12 col-xl-5 d-flex align-items-center" data-aos="fade-left" data-aos-offset="10"
+                    data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+                    <div class="sec_8_content ps-5 py-4 pe-1 rounded-4 bg-white">
+                        <div class="pb-3">
+                            <h1 class="montserratBlack fw-semibold fs-1 text-black text-capitalize">new york + paris
+                            </h1>
+                            <h1 class="montserrat fw-bold fs-4 text-black text-capitalize">7 day + 6 night</h1>
+                        </div>
+                        <div class="row py-1">
+                            <div class="col-3">
+                                <div class="text-center">
+                                    <img src="images/blue aeroplane.png" alt="" class="img-fluid figure-img">
+                                    <p class="lead text-black montserrat fw-bold" style="margin-bottom: 0;">
+                                        Flight</p>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="text-center">
+                                    <img src="images/blue house.png" alt="" class="img-fluid figure-img">
+                                    <p class="lead text-black montserrat fw-bold" style="margin-bottom: 0;">
+                                        Hotel</p>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="text-center">
+                                    <img src="images/blur car (1).png" alt="" class="img-fluid figure-img">
+                                    <p class="lead text-black montserrat fw-bold" style="margin-bottom: 0;">
+                                        Transport</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="lead montserrat fw-bold py-3 text-justify" style="margin-bottom: 0;">Lorem ipsum dolor
+                            sit amet conse ctetr dolo
+                            adisicing elit. Magm ipsa Lorem ipsum dolor
+                        </p>
+                        <div class="row row-cols-auto row-cols-md-2">
+                            <div class="col">
+                                <h1 class="montserratBlack fw-semibold display-4 text-black text-capitalize"
+                                    style="margin-bottom: 0;">$1000</h1>
+                            </div>
+                            <div class="col d-flex align-items-center">
+                                <button
+                                    class="btn btn-warning text-uppercase px-5 py-2 montserrat fw-bold fs-6 mt-2 mt-md-0">book
+                                    now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section ten slider-->
+
+    <section class="sec_ten">
+        <div class="carousel_1 owl-carousel owl-theme">
+            <div class="slide d-flex align-items-center justify-content-center">
+                <div class="text-center text-dark align-items-center py-3 py-md-0 px-3 px-md-4">
+                    <div class="container">
+                        <div class="sec_4_content py-2 py-md-4 text-center text-white">
+                            <h1 class="montserratBlack fw-semibold fs-2  text-capitalize" data-aos="fade-up"
+                                data-aos-offset="10" data-aos-duration="700" data-aos-anchor-placement="top-bottom">
+                                customer reviews</h1>
+                            <h1 class="montserrat fw-semibold fs-2 text-capitalize" data-aos="fade-up"
+                                data-aos-offset="10" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">we
+                                are travel agent</h1>
+                        </div>
+                    </div>
+                    <blockquote class="blockquote">
+                        <p class="titillium fs-6 fst-italic text-white" data-aos="fade-up" data-aos-offset="10"
+                            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">Lorem ipsum dolor sit amet
+                            consectetur
+                            adipisicing elit. Molestiae distinctio ipsum illo commodi voluptas accusantium dolore
+                            officia<br>eius corporis impedit. In excepturi praesentium repellat velit delectus
+                            laboriosam aliquam magnam placeat dolor<br>ibuseius corporis impedit. In excepturi
+                            praesentium repellat velit!</p>
+                    </blockquote>
+                    <div class="d-flex justify-content-center align-items-center mt-2 mt-md-4" data-aos="fade-up"
+                        data-aos-offset="10" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+                        <img src="images/stars.png" class="star_img" alt="">
+                        <img src="images/stars.png" class="star_img" alt="">
+                        <img src="images/stars.png" class="star_img" alt="">
+                        <img src="images/stars.png" class="star_img" alt="">
+                        <img src="images/stars.png" class="star_img" alt="">
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center mt-3 mt-md-5" data-aos="fade-up"
+                        data-aos-offset="10" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+                        <img src="images/man.png" class="img-fluid me-3" alt="logo" style="width: 60px; height: 60px;">
+                        <div class="text-capitalize text-white text-nowrap">
+                            <h1 class="fs-5 montserratBlack fw-bold lh-1">john smith</h1>
+                            <h6 class="montserrat lh-1 text-start">Solo Traveller</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section eleven -->
+
+    <section class="sec_eleven">
+        <div class="container pt-5">
+            <div class="sec_4_content py-2 py-md-5 text-center text-white">
+                <h1 class="montserratBlack fw-semibold fs-2 text-capitalize pt-4" data-aos="fade-up"
+                    data-aos-offset="10" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">start your
+                    journey</h1>
+                <h1 class="montserrat fw-semibold fs-2 text-capitalize" data-aos="fade-up" data-aos-offset="10"
+                    data-aos-duration="1500" data-aos-anchor-placement="top-bottom">contact us</h1>
+            </div>
+        </div>
+        <div class="container">
+            <figure class="figure d-flex justify-content-center">
+                <img src="images/location.png" alt="" class="img-fluid figure-img location_icon">
+            </figure>
+        </div>
+    </section>
+
+    <!-- section twelve  -->
+
+    <section>
+        <div class="container">
+            <div class="row row-cols-auto row-cols-md-3 my-5 justify-content-center gy-4">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-auto col-xl-2 pb-2" data-aos="fade-up-left" data-aos-duration="1000"
+                            data-aos-anchor-placement="top-bottom">
+                            <img src="images/inbox-email.png" alt=""
+                                class="figure-fluid img-fluid d-flex justify-content-center align-items-center">
+                        </div>
+                        <div class="col-auto col-xl-10">
+                            <h1 class="h4 text-uppercase text-black lato fw-bolder text-uppercase fs-5">email</h1>
+                            <p class="lead montserrat fw_bold fs-6" style="margin-bottom: 0;">free@psdfreebies.com</p>
+                            <p class="lead montserrat fw_bold fs-6">free@psdfreebies.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-md-flex align-items-center d-lg-block">
+                    <div class="row">
+                        <div class="col-auto col-xl-2" data-aos="fade-up-left" data-aos-duration="1000"
+                            data-aos-anchor-placement="top-bottom">
+                            <img src="images/phone.png" alt=""
+                                class="figure-fluid img-fluid d-flex justify-content-center align-items-center">
+                        </div>
+                        <div class="col-auto col-xl-10">
+                            <h1 class="h4 text-uppercase text-black lato fw-bolder text-uppercase fs-5">call us!</h1>
+                            <p class="lead montserrat fw_bold fs-6" style="margin-bottom: 0;">+123 456 7890</p>
+                            <p class="lead montserrat fw_bold fs-6">+123 456 7890</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col-auto col-xl-2 pb-2" data-aos="fade-up-left" data-aos-duration="1000"
+                            data-aos-anchor-placement="top-bottom">
+                            <img src="images/map-location.png" alt=""
+                                class="figure-fluid img-fluid d-flex justify-content-center align-items-center">
+                        </div>
+                        <div class="col-auto col-xl-10">
+                            <h1 class="h4 text-uppercase text-black lato fw-bold text-uppercase fs-5">address</h1>
+                            <p class="lead montserrat fw_bold fs-6">123, Main Road, New City,<br>My Country 123456</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- links  -->
+    <section>
+        <div class="container py-3 py-md-5 overflow-hidden">
+            <div class="d-flex justify-content-center align-items-center links_icon" data-aos="fade-left"
+                data-aos-offset="10" data-aos-duration="3000" data-aos-anchor-placement="top-bottom">
+                <figure class="border border-3 border-warning rounded-circle px-4 py-3 mx-4"><img src="images/fb.png"
+                        alt="" class="img-fluid"></figure>
+                <figure class="border border-3 border-warning rounded-circle px-2 py-3 mx-4"><img
+                        src="images/google.png" alt="" class="img-fluid"></figure>
+                <figure class="border border-3 border-warning rounded-circle px-2 py-3 mx-4"><img src="images/vk.png"
+                        alt="" class="img-fluid"></figure>
+                <figure class="border border-3 border-warning rounded-circle px-4 py-3 mx-4"><img
+                        src="images/youtube.png" alt="" class="img-fluid"></figure>
+                <figure class="border border-3 border-warning rounded-circle px-2 py-3 mx-4"><img src="images/digg.png"
+                        alt="" class="img-fluid"></figure>
+                <figure class="border border-3 border-warning rounded-circle px-4 py-3 mx-4"><img src="images/fb.png"
+                        alt="" class="img-fluid"></figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer  -->
+
+    <footer class="bg-warning">
+        <div class="container">
+            <div class="footer_content py-3 py-md-5 text-center">
+                <h1 class="h4 text-black lato fw-bold fs-5">Designed By PSDFreebies.com</h1>
+                <h1 class="h4 text-black lato fw-bold fs-5 mt-3">Copyright 2020, All Rights Reserved</h1>
+            </div>
+        </div>
+    </footer>
+
+    <!-- js linked  -->
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/owl-carousel.jquery.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <!-- carousel one  -->
+    <script>
+        $(document).ready(function () {
+            $('.carousel_1').owlCarousel({
+                dots: true,
+                items: 1,
+                loop: true,
+                responsiveClass: true,
+                center: true,
+                autoplayHoverPause: true,
+                // nav: true,
+                autoplay: true,
+                autoplaySpeed: 1000,
+                smartSpeed: 1500
+            });
+        });
+    </script>
+    <script src="js/datepicker.js"></script>
+    <script>
+        $(function () {
+            $('.dates #user1').datepicker({
+                'format': 'yyyy-mm-dd',
+                'autoclose': true
+            })
+        })
+    </script>
+    <script>
+        $(function () {
+            $('.dates #user2').datepicker({
+                'format': 'yyyy-mm-dd',
+                'autoclose': true
+            })
+        })
+    </script>
+    <script src="js/script.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> css animations -->
+    <script src="js/aos animations.js"></script>
+    <script>
+        AOS.init({
+            // offset: 10,
+            // duration: 500,
+            // mirror: true,
+            // anchorPlacement: 'top-center',
+        });
+    </script>
+</body>
+
+</html>
