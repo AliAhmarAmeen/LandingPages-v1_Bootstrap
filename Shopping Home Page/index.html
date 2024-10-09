@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/owl.carousel CSS.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- owl DEFAULT carousel min.css   -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- offcanvas Start -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavlinks" aria-labelledby="offcanvasNavlinksLabel">
+    <div class="offcanvas-header bg-white text-black">
+      <h5 class="offcanvas-title lato fw-bold" id="offcanvasNavlinksLabel">Pages</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body bg-primary">
+      <nav class="navbar">
+        <div class="container-fluid justify-content-center">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active lato fw-semibold" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link lato fw-semibold" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link lato fw-semibold" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link lato fw-semibold" href="#">Contact</a>
+            </li>
+            <div class="d-md-none">
+              <li class="nav-item">
+                <a class="nav-link lato fw-semibold" aria-current="page" href="#">Welcome Message!</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lato fw-semibold" href="#">My Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lato fw-semibold" href="#">My Whistlist</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lato fw-semibold" href="#">Login</a>
+              </li>
+            </div>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- offcanvas End  -->
+  <header>
+    <div class="top_header bg-primary d-flex justify-content-center align-items-center d-md-block">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-4 col-sm-4 d-inline-flex align-items-center">
+            <img src="Images/top_header_icon.png" class="img-fluid pe-1 pe-sm-3" alt="" />
+            <span class="text-nowrap lato">Call :1800 250 888</span>
+          </div>
+          <nav class="col-8 col-sm-8 navbar-expand d-none d-sm-block">
+            <ul class="navbar-nav justify-content-sm-end gap-1 gap-sm-3 gap-lg-4">
+              <li class="nav-item">
+                <a class="nav-link lato textlink_hover" aria-current="page" href="#">Welcome Message!</a>
+              </li>
+              <div class="vr align-self-center" style="height:10px;"></div>
+              <li class="nav-item">
+                <a class="nav-link lato textlink_hover" href="#">My Account</a>
+              </li>
+              <li class="vr align-self-center" style="height:10px;"></li>
+              <li class="nav-item">
+                <a class="nav-link lato textlink_hover" href="#">My Whistlist</a>
+              </li>
+              <li class="vr align-self-center" style="height:10px;"></li>
+              <li class="nav-item">
+                <a class="nav-link lato textlink_hover" href="#">Login</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- header  -->
+    <div class="header bg-white d-flex align-items-center">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-2 col-md-2 col-lg-4 p-0">
+            <nav class="navbar navbar-expand-lg d-flex justify-content-center justify-content-md-start">
+              <div class="">
+                <a class="d-lg-none" data-bs-toggle="offcanvas" href="#offcanvasNavlinks" role="button"
+                  aria-controls="offcanvasNavlinks"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                    fill="black" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                  </svg></a>
+                <div class="collapse navbar-collapse d-none d-lg-block" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active playfair fs-5 fst-italic" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link playfair fs-5 fst-italic" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link playfair fs-5 fst-italic" href="#">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link playfair fs-5 fst-italic">Pages</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="col-5 col-md-5 col-lg-4 d-flex justify-content-center align-items-center">
+            <h1 class="display-2"><a class="navbar-brand logo" href="#">Shophia</a></h1>
+          </div>
+          <div class="col-5 col-md-5 col-lg-4">
+            <div class="row justify-content-end">
+              <div class="col-0 col-md-6 col-lg-8 d-none d-md-inline-flex justify-content-center">
+                <a href="#">
+                  <img src="Images/icons8-facebook-32.png" class="img-fluid" alt="">
+                </a>
+                <a href="#">
+                  <img src="Images/icons8-twitter-circled-32.png" class="img-fluid mx-1" alt="">
+                </a>
+                <a href="#">
+                  <img src="Images/icons8-pinterest-32.png" class="img-fluid mx-1" alt="">
+                </a>
+                <a href="#">
+                  <img src="Images/icons8-instagram-32.png" class="img-fluid" alt="">
+                </a>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-end pe-1">
+                <div class="dropdown">
+                  <button class="btn btn-primary rounded-0 dropdown-toggle lato fw-bold" type="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Get Offers
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item lato" href="#">Action</a></li>
+                    <li><a class="dropdown-item lato" href="#">Another action</a></li>
+                    <li><a class="dropdown-item lato" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- First Section  -->
+  <section class="">
+    <div class="carousel_1 owl-carousel">
+      <div class="slide slide-1">
+        <div
+          class="slide-content text-uppercase position-absolute start-50 translate-middle text-center text-white border border-end-0 border-start-0 px-sm-4 px-md-5 px-lg-5 py-2 py-md-3 py-lg-3 border-white slider_content">
+          <h4 class="text-white lato fw-bold fs-5">mid season</h4>
+          <h1 class="text-black fw-bold display-3 py-lg-3 lato">sale</h1>
+          <div class="strike"><span><small class="text-white lato fw-bold fs-5">upto</small></span></div>
+          <h1 class="text-black lato fw-bold fs-4 py-lg-2">50% off</h1>
+        </div>
+        <button
+          class="btn btn-secondary position-absolute start-50 translate-middle rounded-0 px-4 py-2 lato fs-bold fs-md-4 text-uppercase slider_button text-nowrap">shop
+          now</button>
+      </div>
+      <div class="slide slide-1">
+        <div
+          class="slide-content text-uppercase position-absolute start-50 translate-middle text-center text-white border border-end-0 border-start-0 px-sm-4 px-md-5 px-lg-5 py-2 py-md-3 py-lg-3 border-white slider_content">
+          <h4 class="text-white lato fw-bold fs-5">mid season</h4>
+          <h1 class="text-black fw-bold display-3 py-lg-3 lato">sale</h1>
+          <div class="strike"><span><small class="text-white lato fw-bold fs-5">upto</small></span></div>
+          <h1 class="text-black lato fw-bold fs-4 py-lg-2">50% off</h1>
+        </div>
+        <button
+          class="btn btn-secondary position-absolute start-50 translate-middle rounded-0 px-4 py-2 lato fs-bold fs-md-4 text-uppercase slider_button text-nowrap">shop
+          now</button>
+      </div>
+      <div class="slide slide-1">
+        <div
+          class="slide-content text-uppercase position-absolute start-50 translate-middle text-center text-white border border-end-0 border-start-0 px-sm-4 px-md-5 px-lg-5 py-2 py-md-3 py-lg-3 border-white slider_content">
+          <h4 class="text-white lato fw-bold fs-5">mid season</h4>
+          <h1 class="text-black fw-bold display-3 py-lg-3 lato">sale</h1>
+          <div class="strike"><span><small class="text-white lato fw-bold fs-5">upto</small></span></div>
+          <h1 class="text-black lato fw-bold fs-4 py-lg-2">50% off</h1>
+        </div>
+        <button
+          class="btn btn-secondary position-absolute start-50 translate-middle rounded-0 px-4 py-2 lato fs-bold fs-md-4 text-uppercase slider_button text-nowrap">shop
+          now</button>
+      </div>
+      <div class="slide slide-1">
+        <div
+          class="slide-content text-uppercase position-absolute start-50 translate-middle text-center text-white border border-end-0 border-start-0 px-sm-4 px-md-5 px-lg-5 py-2 py-md-3 py-lg-3 border-white slider_content">
+          <h4 class="text-white lato fw-bold fs-5">mid season</h4>
+          <h1 class="text-black fw-bold display-3 py-lg-3 lato">sale</h1>
+          <div class="strike"><span><small class="text-white lato fw-bold fs-5">upto</small></span></div>
+          <h1 class="text-black lato fw-bold fs-4 py-lg-2">50% off</h1>
+        </div>
+        <button
+          class="btn btn-secondary position-absolute start-50 translate-middle rounded-0 px-4 py-2 lato fs-bold fs-md-4 text-uppercase slider_button text-nowrap">shop
+          now</button>
+      </div>
+  </section>
+
+  <!-- second section  -->
+
+  <section class="container section_two">
+    <div class="row py-5 gy-5">
+      <div
+        class="col-12 col-md-4 d-flex align-items-center justify-content-center bg_img box_height text-white text-center">
+        <img src="Images/icons8-aeroplane-30.png" class="img-fluid pe-lg-3 pe-sm-2" alt="" />
+        <h3 class="text-nowrap text-start lh-1"><span class="text-uppercase lato fw-bold letter_spacing">30 days
+            return</span><br><span class="lato fw-regular fs-6 fs-md-5">free shipping</span></h3>
+      </div>
+      <!-- <div class="col-1"></div> -->
+      <div
+        class="col-12 col-md-4 d-flex align-items-center justify-content-center bg_img2 box_height text-white cutout_shape">
+        <img src="Images/icons8-time-machine-30.png" class="img-fluid pe-lg-3 pe-sm-2" alt="" />
+        <h3 class="text-nowrap text-start lh-1"><span class="text-uppercase lato fw-bold letter_spacing">30 days
+            return</span><br><span class="lato fw-regular fs-6 fs-md-5">free shipping</span></h3>
+        <!-- <h3 class="text-nowrap lato fw-regular fs-6 fs-md-5"><span class="text-uppercase lato fw-bold fs-4 letter_spacing">30 days return</span><br>In Order Min $200</h3> -->
+      </div>
+      <!-- <div class="col-1"></div> -->
+      <div class="col-12 col-md-4 d-flex align-items-center justify-content-center bg_img3 box_height text-white">
+        <img src="Images/top_header_icon.png" class="img-fluid pe-lg-3 pe-sm-2" alt="" />
+        <h3 class="text-nowrap text-start lh-1"><span class="text-uppercase lato fw-bold letter_spacing">30 days
+            return</span><br><span class="lato fw-regular fs-6 fs-md-5">free shipping</span></h3>
+        <!-- <h3 class="text-nowrap lato fw-regular fs-6 fs-md-5"><span class="text-uppercase lato fw-bold fs-4 letter_spacing">30 days return</span><br>24/7 support</h3> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- section three  -->
+
+  <section class="container mb-4">
+    <div class="row justify-content-center">
+      <div class="col-1 d-none d-md-block col-md-3">
+        <hr class="border border4primary border-1 opacity-100 mt-4">
+      </div>
+      <div class="col-10 col-sm-6 d-flex justify-content-center position-relative">
+        <div class="sec3_box1 position-absolute"></div>
+        <h1 class="text-center playfair fst-italic fw-bold fs-1">HandPicked</h1>
+        <div class="sec3_box2 position-absolute"></div>
+      </div>
+      <div class="col-1 d-none d-md-block col-sm-3">
+        <hr class="border border-primary border-1 opacity-100 mt-4">
+      </div>
+    </div>
+  </section>
+  <section class="container section3_images pt-4">
+    <div class="row row-cols-auto row-cols-lg-4">
+      <div class="col-auto col-lg-4">
+        <div class="row gy-4">
+          <div class="col-sm-6 col-lg-12 position-relative hover d-flex justify-content-center justify-content-md-end">
+            <img src="Images/all/Section3_1img.png" class="sec_3 img-fluid figure-img" alt="">
+            <div class="overlay"></div>
+            <div class="overlay_content">
+              <button
+                class="btn btn-secondary position-absolute start-50 translate-middle rounded-0 px-4 py-2 lato fs-bold fs-md-4 text-uppercase slider_button text-nowrap">shop
+                now</button>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-12 position-relative hover d-flex justify-content-center justify-content-md-end">
+            <img src="Images/all/sction3_5img.png" class="sec_3 img-fluid figure-img" alt="">
+            <div class="overlay"></div>
+            <div class="overlay_content">
+              <button
+                class="btn btn-secondary position-absolute start-50 translate-middle rounded-0 px-4 py-2 lato fs-bold fs-md-4 text-uppercase slider_button text-nowrap">shop
+                now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-auto col-lg-4 sec3_img d-lg-block d-none sec_3 position-relative">
+        <div class="large_imgtext position-absolute">
+          <h4 class="text-black playfair fw-bolder fst-italic h4">PARIS Hilton</h4>
+          <h2 class="text-uppercase text-white lato fw-semibold h2 mt-3 letter_spacing_c">collection</h2>
+        </div>
+      </div>
+      <div class="col-auto col-lg-4">
+        <div class="row gy-4">
+          <div class="col-sm-6 col-lg-12 d-flex justify-content-center justify-content-md-end position-relative hover">
+            <img src="Images/all/Sction3_3img.png" class="sec_3 img-fluid figure-img" alt="">
+            <div class="overlay2"></div>
+            <div class="overlay_content">
+              <button
+                class="btn btn-secondary position-absolute start-50 translate-middle rounded-0 px-4 py-2 lato fs-bold fs-md-4 text-uppercase slider_button text-nowrap">shop
+                now</button>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-12 d-flex justify-content-center justify-content-md-end position-relative hover">
+            <img src="Images/all/sction3_4img.png" class="sec_3 img-fluid figure-img" alt="">
+            <div class="overlay2"></div>
+            <div class="overlay_content">
+              <button
+                class="btn btn-secondary position-absolute start-50 translate-middle rounded-0 px-4 py-2 lato fs-bold fs-md-4 text-uppercase slider_button text-nowrap">shop
+                now</button>
+            </div>
+          </div>
+          <div class="col-sm-6 d-md-block d-lg-none d-flex justify-content-center position-relative hover">
+            <img src="Images/all/sec_two_mobile.png" class="sec_3 img-fluid figure-img" alt="">
+            <div class="small_imgtext position-absolute">
+              <h4 class="text-black playfair fw-bolder fst-italic h4">PARIS Hilton</h4>
+              <h2 class="text-uppercase text-white lato fw-semibold h2 mt-3 letter_spacing_c">collection</h2>
+            </div>
+            <div class="overlay"></div>
+            <div class="overlay_content">
+              <button
+                class="btn btn-secondary position-absolute start-50 translate-middle rounded-0 px-4 py-2 lato fs-bold fs-md-4 text-uppercase slider_button text-nowrap">shop
+                now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- section four  -->
+
+  <section class="container mb-4">
+    <div class="row justify-content-center">
+      <div class="col-1 d-none d-md-block col-sm-3">
+        <hr class="border border-primary border-1 opacity-100 mt-4">
+      </div>
+      <div class="col-10 col-sm-6 d-flex justify-content-center position-relative">
+        <div class="sec6_box1 position-absolute"></div>
+        <h1 class="text-center playfair fst-italic fw-bold fs-1">Summer Collection</h1>
+        <div class="sec6_box2 position-absolute"></div>
+      </div>
+      <div class="col-1 d-none d-md-block col-md-3">
+        <hr class="border border-primary border-1 opacity-100 mt-4">
+      </div>
+    </div>
+  </section>
+  <section class="container sec4_images py-5">
+    <div class="row row-cols-auto justify-content-center row-cols-lg-4 g-4 border">
+      <div class="col position-relative">
+        <img src="Images/all/Section4_1img.png" class="figure-img img-fluid" alt="">
+        <button
+          class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x text-uppercase text-nowrap rounded-0 cutout_button px-5 py-3 lato fw-bold fs-6">+add
+          to cart</button>
+        <span class="position-absolute translate-middle px-1 py-2 bg-warning rounded-circle badge_position">
+          <span><span class="lato fw-bold text-white">20</span><small class="text-white"> %</small>
+          </span>
+      </div>
+      <div class="col position-relative">
+        <img src="Images/all/Sction4_2imga.png" class="figure-img img-fluid" alt="">
+        <button
+          class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x text-uppercase text-nowrap rounded-0 cutout_button px-5 py-3 lato fw-bold fs-6">+
+          add to
+          cart</button>
+      </div>
+      <div class="col position-relative">
+        <img src="Images/all/Section4_3img.png" class="figure-img img-fluid" alt="">
+        <button
+          class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x text-uppercase text-nowrap rounded-0 cutout_button px-5 py-3 lato fw-bold fs-6">+
+          add to
+          cart</button>
+      </div>
+      <div class="col position-relative">
+        <img src="Images/all/Section4_4.png" class="figure-img img-fluid" alt="">
+        <button
+          class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x text-uppercase text-nowrap rounded-0 cutout_button px-5 py-3 lato fw-bold fs-6">+
+          add to
+          cart</button>
+        <span class="position-absolute translate-middle px-1 py-2 bg-warning rounded-circle badge_position">
+          <span><span class="lato fw-bold text-white">20</span><small class="text-white"> %</small>
+          </span>
+      </div>
+      <div class="col position-relative mb-4">
+        <img src="Images/all/Section4_1img.png" class="figure-img img-fluid" alt="">
+        <button
+          class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x text-uppercase text-nowrap rounded-0 cutout_button px-5 py-3 lato fw-bold fs-6">+
+          add to
+          cart</button>
+        <span class="position-absolute translate-middle px-1 py-2 bg-warning rounded-circle badge_position">
+          <span><span class="lato fw-bold text-white">20</span><small class="text-white"> %</small>
+          </span>
+      </div>
+      <div class="col position-relative mb-4">
+        <img src="Images/all/Sction4_2imga.png" class="figure-img img-fluid" alt="">
+        <button
+          class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x text-uppercase text-nowrap rounded-0 cutout_button px-5 py-3 lato fw-bold fs-6">+
+          add to
+          cart</button>
+      </div>
+      <div class="col position-relative mb-4">
+        <img src="Images/all/Section4_3img.png" class="figure-img img-fluid" alt="">
+        <button
+          class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x text-uppercase text-nowrap rounded-0 cutout_button px-5 py-3 lato fw-bold fs-6">+
+          add to
+          cart</button>
+      </div>
+      <div class="col position-relative mb-4">
+        <img src="Images/all/Section4_4.png" class="figure-img img-fluid" alt="">
+        <button
+          class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x text-uppercase text-nowrap rounded-0 cutout_button px-5 py-3 lato fw-bold fs-6">+
+          add to
+          cart</button>
+        <span class="position-absolute translate-middle px-1 py-2 bg-warning rounded-circle badge_position">
+          <span><span class="lato fw-bold text-white">20</span><small class="text-white"> %</small>
+          </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- section five  -->
+  <!-- Owl carousel required  -->
+
+  <section class="container">
+    <div class="row justify-content-center">
+      <div class="col-1 d-none d-md-block col-sm-3">
+        <hr class="border border-primary border-1 opacity-100 mt-4">
+      </div>
+      <div class="col-10 col-sm-6 d-flex justify-content-center position-relative">
+        <div class="sec3_box1 position-absolute"></div>
+        <h1 class="text-center playfair fst-italic fw-bold fs-1">Our Brand</h1>
+        <div class="sec3_box2 position-absolute"></div>
+      </div>
+      <div class="col-1 d-none d-md-block col-md-3">
+        <hr class="border border-primary border-1 opacity-100 mt-4">
+      </div>
+    </div>
+  </section>
+  <section id="slider">
+    <div class="">
+      <div class="slider position-relative">
+        <div class="carousel_2 owl-carousel">
+          <div class="slider-card slider2_img">
+            <img src="Images/all/band3.png" class="figure img-fluid" alt="">
+          </div>
+          <div class="slider-card slider2_img">
+            <img src="Images/all/brand2.png" class="figure img-fluid" alt="">
+          </div>
+          <div class="slider-card slider2_img">
+            <img src="Images/all/band4.png" class="figure img-fluid" alt="">
+          </div>
+          <div class="slider-card slider2_img">
+            <img src="Images/all/band5.png" class="figure img-fluid" alt="">
+          </div>
+          <div class="slider-card slider2_img">
+            <img src="Images/all/band3.png" class="figure img-fluid" alt="">
+          </div>
+          <div class="slider-card slider2_img">
+            <img src="Images/all/band3.png" class="figure img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section class="container section5_brands d-flex align-items-center justify-content-center">
+    <div class="row row-cols-3 row-cols-lg-6 gy-4 gy-lg-0">
+      <div class="col">
+        <img src="Images/all/band-1.png" alt="" class="img-fluid figure-img px-md-4">
+      </div>
+      <div class="col">
+        <img src="Images/all/band3.png" alt="" class="img-fluid figure-img px-md-4">
+      </div>
+      <div class="col">
+        <img src="Images/all/band4.png" alt="" class="img-fluid figure-img px-md-4">
+      </div>
+      <div class="col">
+        <img src="Images/all/band5.png" alt="" class="img-fluid figure-img px-md-4">
+      </div>
+      <div class="col">
+        <img src="Images/all/band-1.png" alt="" class="img-fluid figure-img px-md-4">
+      </div>
+      <div class="col">
+        <img src="Images/all/band3.png" alt="" class="img-fluid figure-img">
+      </div>
+    </div>
+  </section> -->
+
+  <!-- section six  -->
+
+  <section class="container">
+    <div class="row justify-content-center mb-3 mb-md-5">
+      <div class="col-1 d-none d-md-block col-sm-3">
+        <hr class="border border-primary border-1 opacity-100 mt-4">
+      </div>
+      <div class="col-10 col-sm-6 d-flex justify-content-center position-relative">
+        <div class="sec6_box1 position-absolute"></div>
+        <h1 class="text-center playfair fst-italic fw-bold fs-1">Customer Says</h1>
+        <div class="sec6_box2 position-absolute"></div>
+      </div>
+      <div class="col-1 d-none d-md-block col-md-3">
+        <hr class="border border-primary border-1 opacity-100 mt-4">
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid section6_person pt-4">
+    <div class="row align-items-end">
+      <div class="col-12 col-md-6 col-lg-3 text-center text-md-end">
+        <img src="Images/all/peson2.png" alt="">
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 text-center text-md-start">
+        <p class="lead text-white playfair fst-italic fs-5">Lorem ipsum dolor<br>met consectetur adipisicing elit.<br>
+          Ad veritatis incidunt
+          blanditiis expedita</p>
+        <h2 class="text black playfair fw-bold fst-italic fs-2">Sandra Dewi</h2>
+        <p class="lead text_color lato fw-bold fs-6">lorem Ipsum</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 text-center text-md-end order-2 order-sm-0">
+        <p class="lead text-white playfair fst-italic fs-5">Lorem ipsum dolor<br>met consectetur adipisicing elit.<br>Ad
+          veritatis incidunt
+          blanditiis expedita</p>
+        <h2 id="tectChange" class="text black playfair fw-bold fst-italic fs-2">Shaheer Sheikh</h2>
+        <p class="lead text_color lato fw-bold fs-6">lorem Ipsum</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 text-center text-md-start">
+        <img src="Images/all/person.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- footer  -->
+
+  <footer class="footer container-fluid">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-6 col-md-4 col-lg-2">
+          <h5 id="onChange" class="text-white text-uppercase text-nowrap pt-5 lato fw-bold fs-6">shops</h5>
+          <div class="links pt-4">
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">New In</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Women</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Men</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Shoes</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Bags</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Top Brands</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Sales & Offers</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Likebook</a>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <h5 class="text-white text-uppercase text-nowrap pt-5 lato fw-bold fs-6">information</h5>
+          <div class="links pt-4">
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">New In</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Women</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Men</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Shoes</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Bags</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Top Brands</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Sales & Offers</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Likebook</a>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <h5 class="text-white text-uppercase text-nowrap pt-5 lato fw-bold fs-6">customer services</h5>
+          <div class="links pt-4">
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">New In</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Women</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Men</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Shoes</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Bags</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Top Brands</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Sales & Offers</a>
+            <a href="#" class="nav-link mb-2 lato fw-bold footer_font">Likebook</a>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6 d-flex justify-content-center">
+          <div class="content text-center text-lg-start">
+            <h5 class="text-white text-uppercase text-nowrap pt-5 lato fw-bold fs-6">stay connected</h5>
+            <div class="social_icons pt-lg-4">
+              <img src="Images/footer_icons/icon.png" class="img-fluid" alt="">
+              <img src="Images/footer_icons/icon2.png" class="img-fluid mx-1" alt="">
+              <img src="Images/footer_icons/icon3.png" class="img-fluid mx-1" alt="">
+              <img src="Images/footer_icons/icon4.png" class="img-fluid" alt="">
+              <img src="Images/footer_icons/icon.png" class="img-fluid" alt="">
+            </div>
+            <h5 class="text-white py-3 py-lg-5 lato fw-bold subscribe_font">SUBSCRIBE <span class="fst-italic">in</span>
+              OUR NEWSLETTER</h5>
+            <div class="row">
+              <div class="col-12 input-group subscribe pe-0">
+                <input oninput="onInput(this)" onfocus="onFocus(this)" id="subscribe_input" type="text"
+                  class="form-control rounded-0 py-2 border-0 lato" placeholder="Enter Your Email Address"
+                  aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary rounded-0 border-0 px-4 lato" type="button"
+                  id="#">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <hr class="opacity-100 my-1 mb-5 position-relative" style="border-color: #505050;">
+        <div class="triangle position-absolute start-50 translate-middle"
+          style="background-color: #505050;width: 20px;height: 30px;"></div>
+        <div class="col-12 links">
+          <div>
+            <small class="lato font_paid">&copy; Shopia Fashion Store Shopify<br>All Rights Reserved.Ecommerce Software
+              by ALI<br>Designed by ALI</small>
+          </div>
+          <div class="social_icons pt-lg-4">
+            <img src="Images/all/pament_icona.png" class="img-fluid" alt="">
+            <img src="Images/all/pament_icona.png" class="img-fluid mx-1" alt="">
+            <img src="Images/all/pament_icona.png" class="img-fluid mx-1" alt="">
+            <img src="Images/all/pament_icona.png" class="img-fluid mx-1" alt="">
+            <img src="Images/all/pament_icona.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- dropdown -->
+<form action="" onsubmit="onSubmit()">
+  <select onchange="onChange(this)" class="select" style="padding: 10px; margin:10px;"
+  10px>
+    <option value="pakistan">pakistan</option>
+    <option value="india">india</option>
+    <option value="malysia">Malysia</option>
+    <option value="england">england</option>
+    <option value="canada">canada</option>
+  </select>
+  <input type="submit">
+</form>
+  <button id="scroll_top" type="button" class="btn btn-primary btn-sm"><img src="/Images/icons8-up-24.png" alt=""
+      class="figure-fluid figure-img"></button>
+  <!-- basic bootstrap.bundle.min.js   -->
+  <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="s4-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <!-- owl.carousel.min.js  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/js/owl.carousel.js"></script>
+  <!-- owl carousel min.js   -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $(document).ready(function () {
+      $(".carousel_1").owlCarousel({
+        items: 1,
+        loop: true,
+        responsiveClass: true,
+        center: true,
+        autoplayHoverPause: true,
+        // nav: true,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        smartSpeed: 1500
+      });
+    });
+  </script>
+
+  <!-- carousel two  -->
+
+  <script>
+    $(document).ready(function () {
+      $('.carousel_2').owlCarousel({
+        loop: true,
+        margin: 0,
+        responsiveClass: true,
+        center: true,
+        autoplay: true,
+        autoplayHoverPause: true,
+        autoplaySpeed: 1000,
+        smartSpeed: 1500,
+        dots: false,
+        // nav: true,
+        // navText:[  //for arrows
+        //     "<i class='fa fa-angle-left'></i>",
+        //     "<i class='fa fa-angle-right'></i>"
+        // ],
+        responsive: {
+          0: {
+            items: 3,
+          },
+          600: {
+            items: 3,
+
+          },
+          1000: {
+            items: 5,
+          }
+        }
+      })
+    })
+  </script>
+  <script src="/js/script.js"></script>
+</body>
+
+</html>
