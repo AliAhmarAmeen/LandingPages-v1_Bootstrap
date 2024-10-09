@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: gabelisa;
+  src: url(.././fonts/gabelisa.otf.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: FrederickatheGreat;
+  src: url(.././fonts/FrederickatheGreat.ttf.ttf);
+  font-weight: 400;
+}
+
+.gabelisa_font {
+  font-family: gabelisa;
+}
+
+.FrederickatheGreat {
+  font-family: FrederickatheGreat;
+}
+
+/* header  */
+
+.hero_background {
+  position: relative;
+}
+
+.hero_background:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  top: 0;
+  right: 0;
+  background-image: linear-gradient(100deg,
+      #ffe001 65%,
+      rgba(224, 224, 164) 35%);
+  z-index: -1;
+}
+
+/* section 1   */
+.leaf {
+  position: absolute;
+  top: 7vh;
+  left: 20vh;
+}
+
+.gift {
+  position: absolute;
+  top: 7vh;
+  left: 100vh;
+}
+
+.another_leaf {
+  position: absolute;
+  bottom: 15vh;
+  right: 5vh;
+}
+
+.tomato {
+  position: absolute;
+  bottom: 20vh;
+  left: 95vh;
+}
+
+.chips {
+  position: absolute;
+  bottom: -22vh;
+  left: 0;
+}
+
+.section1_img {
+  margin-top: -5vh;
+}
+
+.section1_content {
+  margin-top: -28vh;
+}
+
+.numbers {
+  letter-spacing: 1px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .section1_img {
+    margin-top: -5vh;
+  }
+
+  .section1_content {
+    margin-top: -14vh;
+  }
+}
+
+@media (min-width: 576px) {
+  .links_text {
+    letter-spacing: 3px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section1_content {
+    margin-top: 5vh;
+  }
+}
+
+/* section 2   */
+.box {
+  background-color: rgb(232, 230, 169);
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  height: 14vh;
+}
+
+/* section three  */
+/* Owl carousel required  */
+.slider .owl-item.active.center .slider-card {
+  align-items: center;
+  transform: scale(1.15);
+  opacity: 1;
+}
+
+.slider-card {
+  transform: scale(0.9);
+  opacity: 0.5;
+  transition: all 0.3s;
+  margin-bottom: 50px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: rgb(255, 208, 0) !important;
+}
+
+/* .wrapper-circle {
+    width: 772px;
+    height: auto;
+} */
+/* .wrapper-circle img{
+    display: block;
+    max-width: 572px;
+    height: auto; 
+} */
+/* for arrows  */
+.slider {
+  /*font-size inherit*/
+  font-size: 60px;
+}
+
+.owl-nav .owl-next {
+  position: absolute;
+  top: calc(50% - 65px);
+  right: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+
+.owl-nav .owl-prev {
+  position: absolute;
+  top: calc(50% - 65px);
+  left: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+
+/* fourth three  */
+.gallery_section {
+  height: 550px;
+}
+
+.content {
+  position: absolute;
+  top: 45px;
+  left: 60px;
+}
+
+.content2 {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+
+/* fifth three  */
+.form_section {
+  height: 445px;
+}
+
+.form_width {
+  max-width: 785px;
+}
+
+.pk1 .dot2 {
+  margin-top: 6px;
+}
+
+.pk1 .dot button {
+  width: 365%;
+  margin-top: 5px;
+}
+
+/* footer  */
+.footer {
+  background-image: url(../Images/fotter_background.png);
+  background-size: cover;
+  height: 600px;
+}
+
+.lastfooter {
+  height: 200px;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    position: absolute;
+    top: 45px;
+    left: 40px;
+  }
+
+  .chips {
+    width: 170px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery_bottom_text {
+    font-size: 20px;
+  }
+
+  .gallery_section {
+    height: 383px;
+  }
+
+  .content {
+    position: absolute;
+    top: 45px;
+    left: 30px;
+  }
+
+  .chips {
+    width: 144px;
+  }
+}
+
+@media (max-width: 576px) {
+  .lastfooter {
+    height: 0px;
+  }
+
+  .gallery_bottom_text {
+    font-size: 16px;
+  }
+
+  .form_section {
+    margin-top: 275px;
+    height: 530px;
+  }
+
+  .box {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .form_section {
+    margin-top: 210px;
+  }
+}
+
+@media (max-width: 320px) {
+  .form_section {
+    margin-top: 148px;
+  }
+
+  .content {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+  }
+
+  .content2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+}
+
+
+/* wave Animation  */
+
+.wave_parent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+}
+
+/* .wave{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 200%;
+  height: 110px;
+  background-image: url(../Images/wave\ light\ yellow.png);
+  background-size: 1100px 110px;
+} */
+.wave1 {
+  animation: waveAnime 30s linear infinite;
+  z-index: -1;
+  bottom: 0;
+  /* opacity: 1; */
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes waveAnime {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 1100px;
+  }
+}
+
+.wavee {
+  /* animation: waveAnime2 15s linear 5s infinite;
+  z-index: -1;
+  bottom: 5px;
+  opacity: 0.6; */
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes waveAnime2 {
+  /* 0%{
+  background-position-x: 0;
+}
+100%{
+  background-position-x: 900px;
+} */
+}
+
+.wavee {
+  /* animation: waveAnime3 15s linear 8s infinite;
+  z-index: -1;
+  bottom: 10px;
+  opacity: 0.6; */
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes waveAnime3 {
+  /* 0%{
+  background-position-x: 0;
+}
+100%{
+  background-position-x: 1100px;
+} */
+}
