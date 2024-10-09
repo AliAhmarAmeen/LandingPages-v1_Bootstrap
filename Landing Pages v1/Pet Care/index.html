@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body onresize="anim()">
+    <!-- navbar -->
+    <!-- offcanvas Start -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavlinks"
+        aria-labelledby="offcanvasNavlinksLabel">
+        <div class="offcanvas-header bg-warning">
+            <h5 class="offcanvas-title text-white" id="offcanvasNavlinksLabel">Pages</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body bg-primary">
+            <nav class="navbar">
+                <div class="container-fluid justify-content-center">
+
+                    <ul id="orderList" class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <h1>ddd</h1>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- offcanvas End  -->
+
+    <header>
+        <div class="header bg-primary position-relative">
+            <!-- offcanvas End   <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#0099ff" fill-opacity="1" d="M0,0L480,160L960,64L1440,256L1440,0L960,0L480,0L0,0Z"></path>
+            </svg>-->
+            <div class="container">
+                <div class="row align-items-center header">
+
+                    <div class="col-6 col-md-5 col-lg-2 d-flex justify-content-start">
+                        <figure class="figure d-flex justify-content-start">
+                            <img src="Images/Icons/logo.png" class="img-fluid rounded" alt="logo">
+                        </figure>
+                    </div>
+
+                    <div class="d-none d-lg-block col-lg-7">
+                        <div class="container-fluid header bg-primary d-flex justify-content-center align-items-center">
+                            <nav class="navbar navbar-expand-lg">
+                                <div class="container-fluid justify-content-center">
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                            <li class="nav-item">
+                                                <a class="nav-link active fs-4" aria-current="page" href="#">Home</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link fs-4" href="#">Link</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link fs-4" href="#">About</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link fs-4" href="#">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div
+                        class="col-6 col-md-2 d-lg-none d-flex align-items-center justify-content-end justify-content-md-center justify-content-lg-center">
+                        <a class="nav_toggle" data-bs-toggle="offcanvas" href="#offcanvasNavlinks" role="button"
+                            aria-controls="offcanvasNavlinks"><svg xmlns="http://www.w3.org/2000/svg" width="35"
+                                height="35" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                            </svg></a>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-3">
+                        <form class="d-flex justify-content-center align-items-center">
+                            <input class="form-control-md shadow bg-warning fw-normal text-white search_input"
+                                type="search" placeholder="Search..." aria-label="Search">
+                            <button class="btn rounded-0 btn-outline-primary srch_btn" type="submit">
+                                <figure class="figure"><img src="Images/Icons/search_icon.png"
+                                        class="img-fluid bg-indigo" alt="search"></figure>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- first section -->
+    <div class="container-fluid bg-warning section_height">
+        <div class="container-sm">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 d-flex justify-content-center align-items-center mt-5">
+                    <div id="append" class="rounded">
+                        <h1 id="fst-sec-heading" class="text-white display-4 fw-bold">First I wanted to be a
+                            veterinarian</h1>
+                        <p class="lead mt-3 mb-3 text-white para fs-4">Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit.
+                            Incidunt, omnis aut iste debitis cupiditate ea dolor, necessitatibus culpa, officia quae
+                            impedit voluptates dicta reiciendis.</p>
+
+                        <a id="first-button" class="btn btn-md btn-outline-primary text-white btn_padding" href="#"
+                            role="button">Contac
+                            Us</a>
+
+                        <a class="btn btn-md btn-outline-primary text-white btn_padding" href="#" role="button">Our
+                            Services</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 d-flex justify-content-center align-items-center>                        
+                            figure class=">
+                    <img class="figure-img img-fluid mt-5" src="Images/Pics/1st_section_dog.png" alt="main-image">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- second section -->
+    <div class="container-fluid py-5">
+        <div class="container-sm">
+
+            <div class="row mt-5 mb-5">
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="rounded">
+                        <h1 class="display-5 h_2 card_h1">First I wanted to be<br>a veterinarian</h1>
+                        <p class="lead mt-3 mb-3 fs-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Incidunt, omnis aut iste debitis cupiditate ea dolor.</p>
+                        <a class="btn btn-md btn-outline-secondary btn_padding" href="#" role="button">Contact Us</a>
+                    </div>
+                </div>
+                <div
+                    class="col-12 col-md-6 embed-responsive mt-5 d-flex justify-content-center align-items-center position-relative overlay">
+                    <iframe class="embed-responsive-item img_size" src="Videos/Section 2.mp4"></iframe>
+                    <div class="container-fluid box position-absolute bg-warning"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- section three  -->
+    <div class="container-fluid bg-warning section_height">
+        <div class="container-sm">
+
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="py-5 text-center text-white">
+                    <h1 class="display-3 fs fw-bold mt-5 mb-4">Centered hero</h1>
+                    <div class="col-lg-6 mx-auto">
+                        <p class="lead mb-4 fs-3">Quickly design and customize responsive mobile-first sites with.</p>
+                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-evenly">
+                <div class="col-xs-12 col-md-4 col-lg-4 mb-5">
+                    <div class="card card-outline">
+
+                        <div class="card-body bg-warning text-white">
+                            <figure class="figure">
+                                <img figure-img img-fluid src="Images/Pics/3rd_section_1st_img.png" class="card-img-top"
+                                    alt="...">
+                            </figure>
+                            <h1 class="display-6 card_h1 text-center mt-5">veterinarian</h1>
+                            <p class="lead card-text text-center fs-5">Some build on the card.quick example text to Some
+                                quick
+                                build on the card.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-4 mb-5">
+                    <div class="card card-outline">
+
+
+                        <div class="card-body bg-warning text-white">
+                            <figure class="figure">
+                                <img src="Images/Pics/3rd_section_2nd_img.png" class="card-img-top" alt="img">
+                            </figure>
+                            <h1 class="display-6 card_h1 text-center mt-5">veterinarian</h1>
+                            <p class="lead card-text text-center fs-5">Some quick example text to Some quick example
+                                build on the card titl ebuild on the card..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-4 mb-5">
+                    <div class="card card-outline">
+
+                        <div class="card-body bg-warning text-white">
+                            <figure class="figure">
+                                <img src="Images/Pics/3rd_section_3rd_img.png" class="card-img-top" alt="...">
+                            </figure>
+                            <h1 class="display-6 card_h1 text-center mt-5">veterinarian</h1>
+                            <p class="lead card-text text-center fs-5">Some quick example text to build Some quick e
+                                build on the card.build on the card.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- four section -->
+    <div class="container-fluid py-5">
+        <div class="container-sm">
+            <div class="row mt-5 mb-5">
+                <div
+                    class="col-12 col-md-6 container-fluid embed-responsive d-flex justify-content-center align-items-center overlay position-relative">
+                    <iframe class="embed-responsive-item img_size" src="Videos/Section 2.mp4"
+                        allowfullscreen="true"></iframe>
+                    <div class="embed-responsive-item box2 position-absolute bg-warning"></div>
+                </div>
+
+                <div class="col-xs-12 col-md-6">
+                    <div class="rounded text-end justify-content-center align-items-center">
+                        <h1 class="display-5 mt-5 card_h1">First I wanted to be<br>a veterinarian</h1>
+                        <p class="lead mt-3 mb-3">Lorem, ipsum dolor sit amet consectetur orem, ipsum dolor adipisicing
+                            elit.</p>
+                        <a class="btn btn-md btn-outline-secondary btn_padding" href="#" role="button">Contact Us</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- section five  -->
+    <div class="container-fluid bg-warning">
+        <div class="container-sm">
+
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="py-5 text-center text-white">
+                    <h1 class="display-3 fs fw-bold mt-5 mb-4">Centered hero</h1>
+                    <div class="col-lg-6 mx-auto">
+                        <p class="lead mb-4 fs-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam,
+                            veniamconsectetur adipisicing elit!
+                        </p>
+                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-5 justify-content-evenly">
+                <div class="col-12 col-md-4 col-lg-4 mb-5">
+                    <div class="card card-outline">
+
+                        <div class="card-body bg-warning text-center">
+                            <figure class="figure">
+                                <img figure-img img-fluid mt-5 src="Images/Pics/5th_section_1st_img.png"
+                                    class="card-img-top" alt="...">
+                            </figure>
+                            <h1 class="display-6 card_h1 text-white mt-5"><span
+                                    class="text-decoration-line-through">$300</span> $250</h1>
+                            <button class="btn btn-md btn-outline-primary text-white btn_padding rounded-5"
+                                type="submit">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 mb-5">
+                    <div class="card card-outline">
+
+
+                        <div class="card-body bg-warning text-center">
+                            <figure class="figure">
+                                <img src="Images/Pics/5th_section_2st_img.png" class="card-img-top" alt="img">
+                            </figure>
+                            <h1 class="display-6 card_h1 text-white mt-5"><span
+                                    class="text-decoration-line-through">$300</span> $500</h1>
+                            <button class="btn btn-md btn-outline-primary text-white btn_padding rounded-5"
+                                type="submit">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-4 mb-5">
+                    <div class="card card-outline">
+
+                        <div class="card-body bg-warning text-center">
+                            <figure class="figure">
+                                <img src="Images/Pics/5th_section_3rd_img.png" class="card-img-top" alt="...">
+                            </figure>
+                            <h1 class="display-6 card_h1 text-white mt-5"><span
+                                    class="text-decoration-line-through">$300</span> $500</h1>
+                            <button class="btn btn-md btn-outline-primary text-white btn_padding rounded-5"
+                                type="submit">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section Six  -->
+    <div class="container-fluid">
+        <div class="container-sm">
+
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="py-5 text-center">
+                    <h1 class="display-3 fw-bold">Centered hero</h1>
+                    <div class="col-lg-6 mx-auto">
+                        <p class="lead mb-4 fw-normal fs-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Totam, veniam!
+                        </p>
+                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-5 justify-content-evenly">
+                <div class="col-xs-12 col-md-4 col-lg-4 mb-5">
+                    <div class="card card-outline">
+
+                        <div class="card-body text-center">
+                            <figure class="figure">
+                                <img src="Images/Pics/6th_section_1st_img.png" class="card-img-top" alt="...">
+                            </figure>
+                            <h1 class="display-6 fw-bold mt-5 lh-sm">Commander</h1>
+                            <p class="lead mb-4 text-uppercase lh-sm">Veternary</p>
+                            <figure class="figure d-flex d-flex justify-content-center">
+                                <a href="#"><img src="Images/icons/insta_icon.png" alt="icons"
+                                        class="img-fluid bg-warning rounded-5"></a>
+                                <a href=" #"><img src="Images/Icons/twitter_icon.png" alt="icons"
+                                        class="img-fluid bg-warning rounded-5"></a>
+                                <a href=" #"><img src="Images/Icons/fb_icon.png" alt="icons"
+                                        class="img-fluid bg-warning rounded-5"></a>
+                                <a href=" #"><img src="Images/Icons/whatsapp_icon.png" alt="icons"
+                                        class="img-fluid bg-warning rounded-5"></a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-xs-12 col-md-4 col-lg-4 mb-5">
+                    <div class="card card-outline">
+
+
+                        <div class="card-body text-center">
+                            <figure class="figure">
+                                <img src="Images/Pics/6th_section_2nd_img.png" class="card-img-top" alt="img">
+                            </figure>
+                            <h1 class="display-6 fw-bold mt-5 lh-sm">Commander</h1>
+                            <p class="lead mb-4 text-uppercase lh-sm">Veternary</p>
+                            <figure class="figure d-flex  d-flex justify-content-center">
+                                <a href="#"><img src="Images/icons/insta_icon.png" alt="icons"
+                                        class="img-fluid bg-warning rounded-5"></a>
+                                <a href=" #"><img src="Images/Icons/twitter_icon.png" alt="icons"
+                                        class="img-fluid bg-warning rounded-5"></a>
+                                <a href=" #"><img src="Images/Icons/fb_icon.png" alt="icons"
+                                        class="img-fluid bg-warning rounded-5"></a>
+                                <a href=" #"><img src="Images/Icons/whatsapp_icon.png" alt="icons"
+                                        class="img-fluid bg-warning rounded-5"></a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-xs-12 col-md-4 col-lg-4 mb-5">
+                    <div class="card card-outline">
+
+                        <div class="card-body text-center">
+                            <figure class="figure">
+                                <img src="Images/Pics/6th_section_3rd_img.png" class="card-img-top" alt="...">
+                            </figure>
+                            <h1 class="display-6 fw-bold mt-5 lh-sm">Commander</h1>
+                            <p class="lead mb-4 text-uppercase lh-sm">Veternary</p>
+                            <figure class="figure d-flex justify-content-center">
+                                <a href="#"><img src="Images/icons/insta_icon.png" alt="icons"
+                                        class="img-fluid bg-warning rounded-5"></a>
+                                <a href=" #"><img src="Images/Icons/twitter_icon.png" alt="icons"
+                                        class="img-fluid bg-warning rounded-5"></a>
+                                <a href=" #"><img src="Images/Icons/fb_icon.png" alt="icons"
+                                        class="img-fluid bg-warning rounded-5"></a>
+                                <a href=" #"><img src="Images/Icons/whatsapp_icon.png" alt="icons"
+                                        class="img-fluid bg-warning rounded-5"></a>
+
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- section Seven  -->
+    <section class=" overlay_bg">
+        <div class="container-fluid px-5 py-5">
+            <div class="container-sm">
+                <div class="row mt-5 mb-5 justify-content-evenly">
+                    <div class="col-xs-12 col-md-4 col-lg-4">
+                        <div class="card card-outline">
+                            <div class="card-body text-center">
+                                <figure class="figure"><img figure-img img-fluid mt-5
+                                        src="Images/Icons/7th_section_icon.png" class="card-img-top" alt="Icon">
+                                </figure>
+                                <h1 class="display-6 fw-bold mt-5 text-white">
+                                    +6546</h1>
+                                <p class="lead mt-2 mb-4 text-white">
+                                    Lorem2</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-4">
+                        <div class="card card-outline">
+                            <div class="card-body text-center">
+                                <figure class="figure">
+                                    <img src="Images/Icons/7th_section_icon2.png" class="card-img-top" alt="img">
+                                </figure>
+                                <h1 class="display-6 fw-bold mt-5 text-white">
+                                    +6584</h1>
+                                <p class="lead mt-2 mb-4 text-white">
+                                    Lorem2</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-4">
+                        <div class="card card-outline">
+                            <div class="card-body text-center">
+                                <figure class="figure">
+                                    <img src="Images/Icons/7th_section_icon3.png" class="card-img-top" alt="...">
+                                </figure>
+                                <h1 class="display-6 fw-bold mt-5 text-white">
+                                    +5614</h1>
+                                <p class="lead mt-2 mb-4 text-white">
+                                    Lorem2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- section Eight  -->
+    <div class="container-fluid section_height">
+        <div class="container-sm">
+
+            <div class="row justify-content-center align-items-center">
+                <div class="py-5 text-center">
+                    <h1 class="display-3 fs fw-bold mt-5 mb-4">
+                        Centered hero</h1>
+                    <div class="col-lg-6 mx-auto">
+                        <p class="lead mb-4 fs-3">
+                            Quickly design and customize
+                            responsive mobile-first
+                            sites with.</p>
+                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-evenly">
+                <div class="col-xs-12 col-md-4 col-lg-4 mb-5">
+                    <div class="card rounded-0 col_hover" style="max-width: 360px;">
+                        <figure class="figure">
+                            <img src="Images/Pics/8th_section_image1.png" class="card-img-top" alt="...">
+                        </figure>
+                        <div class="card-body pb-4 px-4">
+                            <h5 class="card-title card_h1 pt-4 fs-3">
+                                As a lover of animals
+                            </h5>
+                            <h6 class="card-subtitle mt-2 text-secondary regular fs-6">
+                                August 30,2022</h6>
+                            <p class="lead card-text fs-6 mt-4">
+                                Some quick example text
+                                to build on the card
+                                title and make up the
+                                bulk of the card's
+                                content.</p>
+                            <a href="#" class="card-link card_h1 text-secondary text-decoration-none .btn">Read
+                                More+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-4 mb-5">
+                    <div class="card rounded-0 col_hover" style="max-width: 360px;">
+                        <figure class="figure">
+                            <img src="Images/Pics/8th_section_image2.png" class="card-img-top" alt="...">
+                        </figure>
+                        <div class="card-body pb-4 px-4">
+                            <h5 class="card-title card_h1 pt-4 fs-3">
+                                As a lover of animals
+                            </h5>
+                            <h6 class="card-subtitle mt-2 text-secondary regular fs-6">
+                                August 30,2022</h6>
+                            <p class="lead card-text fs-6 mt-4">
+                                Some quick example text
+                                to build on the card
+                                title and make up the
+                                bulk of the card's
+                                content.</p>
+                            <a href="#" class="card-link card_h1 text-secondary text-decoration-none .btn">Read
+                                More+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-4 mb-5">
+
+                    <div class="card rounded-0 col_hover" style="max-width: 360px;">
+                        <figure class="figure">
+                            <img src="Images/Pics/8th_section_image3.png" class="card-img-top" alt="...">
+                        </figure>
+                        <div class="card-body pb-4 px-4">
+                            <h5 class="card-title card_h1 pt-4 fs-3">
+                                As a lover of animals
+                            </h5>
+                            <h6 class="card-subtitle mt-2 text-secondary regular fs-6">
+                                August 30,2022</h6>
+                            <p class="lead card-text fs-6 mt-4">
+                                Some quick example text
+                                to build on the card
+                                title and make up the
+                                bulk of the card's
+                                content.</p>
+                            <a href="#" class="card-link card_h1 text-secondary text-decoration-none .btn">Read
+                                More+</a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- footer  -->
+    <footer class="bg-dark py-5">
+        <section class="container-sm container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <h1 class="card_h1 mt-5 mb-4 text-white fs-3">ABOUT</h1>
+                            <p class="lead card-text fs-6 regular lh-1">
+                                <a class="text-white text-decoration-none" href="#">History</a>
+                            </p>
+                            <p class="lead card-text fs-6 regular lh-1">
+                                <a class="text-white text-decoration-none" href="#">Our Team</a>
+                            </p>
+                            <p class="lead card-text fs-6 regular lh-1">
+                                <a class="text-white text-decoration-none" href="#">Brand Guidelines</a>
+                            </p>
+                            <p class="lead card-text fs-6 regular lh-1">
+                                <a class="text-white text-decoration-none" href="#">Terms & Condition</a>
+                            </p>
+                            <p class="lead card-text fs-6 regular lh-1">
+                                <a class="text-white text-decoration-none" href="#">Terms & Condition</a>
+                            </p>
+                        </div>
+                        <div id="dd" class="col-12 col-lg-6">
+                            <h1 class="card_h1 mt-5 mb-4 text-white fs-3">
+                                SERVICES</h1>
+                            <p class="lead card-text fs-6 regular lh-1">
+                                <a class="text-white text-decoration-none" href="#">History</a>
+                            </p>
+                            <p class="lead card-text fs-6 regular lh-1">
+                                <a class="text-white text-decoration-none" href="#">Our
+                                    Team</a>
+                            </p>
+                            <p class="lead card-text fs-6 regular lh-1">
+                                <a class="text-white text-decoration-none" href="#">Brand
+                                    Guidelines</a>
+                            </p>
+                            <p class="lead card-text fs-6 regular lh-1">
+                                <a class="text-white text-decoration-none" href="#">Terms &
+                                    Condition</a>
+                            </p>
+                            <p class="lead card-text fs-6 regular lh-1">
+                                <a class="text-white text-decoration-none" href="#">Terms &
+                                    Condition</a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="par" class="col-12 col-lg-6 text-end">
+                    <h1 class="card_h1 mt-5 text-white fs-3">Title Here</h1>
+                    <p id="cont" class="lead card-text text-white fs-6 regular">Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                    <form class="d-flex justify-content-end align-items-center my-5">
+                        <input class="form-control-md shadow bg-warning fw-normal text-white footer_input" type="search"
+                            placeholder="Search..." aria-label="Search">
+                        <button id="jj" class="btn rounded-0 btn-outline-primary footer_btn" type="submit">
+                            <figure class="figure"><img src="Images/Icons/search_icon.png" class="img-fluid bg-indigo"
+                                    alt="search">
+                            </figure>
+                        </button>
+                    </form>
+                    <figure class="figure d-flex justify-content-end">
+                        <a href="#"><img src="Images/icons/insta_icon.png" alt="icons"
+                                class="img-fluid px-2 rounded-5"></a>
+                        <a href=" #"><img src="Images/Icons/twitter_icon.png" alt="icons"
+                                class="img-fluid px-2 rounded-5"></a>
+                        <a href=" #"><img src="Images/Icons/fb_icon.png" alt="icons"
+                                class="img-fluid px-2 rounded-5"></a>
+                        <a href=" #"><img src="Images/Icons/whatsapp_icon.png" alt="icons"
+                                class="img-fluid px-2 rounded-5"></a>
+
+                    </figure>
+                </div>
+
+            </div>
+        </section>
+    </footer>
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+    <script>
+        let a = document.getElementById("cont");
+        let b = document.getElementById("par");
+        b.addEventListener("onclick", function () {
+
+        })
+        let result = a.isEqualNode(b);
+        console.log(result);
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
